@@ -1,0 +1,101 @@
+/*Top of the page CSS/Nav bar*/
+.topbar{
+    position: fixed;
+    background: #b1102b;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    list-style-type: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    top: -1px;
+}
+
+#searchbar {
+    padding-right: 4%;
+    padding-top: 13px;
+    background-color: #b1102b;
+    fill-opacity: 50%;
+}
+
+#topnav {
+    /*padding: 5px;*/
+    padding-left: 4%;
+    overflow: hidden; 
+     
+}
+#topnav li {
+    float: left;
+}
+
+#topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#topnav a:hover:not(.active) {
+    background-color: #13284c;
+    border-radius: 5px;
+}
+
+/*Bottom/footer CSS*/
+.bottombar {
+    position: fixed;
+    background-color: #13284c;
+    height: 180px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    padding-left: 12%;
+    display: flex;
+  }
+  
+  .bottombar hr {
+    position: fixed;
+    bottom: 95px;
+    overflow: hidden;
+  }
+  #copyright{
+    position: fixed;
+    bottom: 40px;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: monospace;
+  }
+  
+  #navtitle, #bottomnav {
+      color: whitesmoke;
+      list-style-type: none;
+      font-family: monospace;
+  }
+  
+  hr.horizontalbar{
+    border: 3px solid whitesmoke;
+    width: 80%;
+    bottom: 70px;
+  
+  }
+/*CSS that cover the page itself*/
+
+body {
+    background-image: url(campus-arial.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#bottomnav, #copyright, #topnav{
+    list-style-type: none;
+}
+
+
+  
+
+  
+
+
