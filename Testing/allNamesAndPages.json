@@ -1,0 +1,333 @@
+[
+	{
+		"Names": "CSCI 1. Critical Thinking and Computer Science",
+		"pageName": "csciOnePage.html"
+	},
+	{
+		"Names": "CSCI 5. Computer and Applications",
+		"pageName": "csciFivePage.html"
+	},
+	{
+		"Names": "CSCI 30. Introduction to the Internet",
+		"pageName": "csciThirdyPage.html"
+	},
+	{
+		"Names": "CSCI 39. Computer Science Principles",
+		"pageName": "csciThirdyNinePage.html"
+	},
+	{
+		"Names": "CSCI 40. Introduction to Programming and Problem Solving",
+		"pageName": "csciFourtyPage.html"
+	},
+	{
+		"Names": "CSCI 41. Introduction to Data Structures",
+		"pageName": "csciFourtyOnePage.html"
+	},
+	{
+		"Names": "CSCI 60. Foundations of Computer Science",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 68. Computing Practice and Programming",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 100. Introduction to Computational Science",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 101. Computational Foundations for Bioinformatics",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 108. Algorithmic Thinking",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 112. Introduction to Computer Systems",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 113. Introduction to Computer Organization",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 114. Introduction to Operating Systems",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 115. Algorithms and Data Structures",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 117. Structures of Programming Languages",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 119. Introduction to Finite Automata",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 124. Introduction to File Processing",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 126. Database Systems",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 130. Web Programming",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 134. Compiler Design",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 146. Systems Architecture",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 148. Systems Programming",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 150. Introduction to Software Engineering",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 152E. Software Engineering",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 154. Simulation",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 156. Internetworking Systems and Protocols",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 164. Artificial Intelligence Programming",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 166. Principles of Artificial Intelligence",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 168E. Big Data Analytics",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 172. Computer Graphics",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 173. Advanced Computer Graphics",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 174. Design and Analysis of Algorithms",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 176. Parallel Processing",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 177. Distributed Computer Systems",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 186. Formal Languages and Automata",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 188. Introduction to Computability",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 190. Independent Study",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 191T. Topics in Computer Science",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 191T. Computer Security",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 194I. Cooperative Education",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 198. Project",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 200. Introduction to Research in Computer Science",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 201. CSCI Colloquium",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 213. Computer Organization",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 217. Programming Language Principles",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 226. Advanced Database Systems",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 230. Advanced Web Application Development",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 244. Operating Systems",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 246. Computer Architecture",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 250. Advanced Software Engineering",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 252. Software Development and Environments",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 253. Human-Computer Interaction",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 256. Wireless Communications and Mobile Computing",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 264. Artificial Intelligence",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 272. Computer Graphics",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 274. Combinatorial Algorithms",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 282. Theory of Computation",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 284. Automata Theory",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 290. Independent Study",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 291T. Seminar",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 291T. Introduction to Reinforcement Learning",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 291T. Image Processing",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 297. Grad Synthesis",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 298. Research Project",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 298C. Project Continuation",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 299. Master's Thesis",
+		"pageName": ""
+	},
+	{
+		"Names": "CSCI 299C. Thesis Continuation",
+		"pageName": ""
+	},
+	{
+		"Names": "Dhanyu Eshaka Amarasinghe",
+		"pageName": "facultyDhanyuEshakaAmarasinghe.html"
+	},
+	{
+		"Names": "Dr. Brent Auernheimer",
+		"pageName": "facultyBrentAuernheimer.html"
+	},
+	{
+		"Names": "Santanu Banerjee",
+		"pageName": "facultySantanuBanerjee.html"
+	},
+	{
+		"Names": "Amith Kamath Belman",
+		"pageName": "facultyAmith Kamath Belman.html"
+	},
+	{
+		"Names": "Hubert Cecotti",
+		"pageName": "facultyHubertCecotti.html"
+	},
+	{
+		"Names": "Lisa Dennis",
+		"pageName": "facultyLisa Dennis.html"
+	},
+	{
+		"Names": "William Kerney",
+		"pageName": "facultyWilliamKerney.html"
+	},
+	{
+		"Names": "Dr. Ming Li",
+		"pageName": "facultyMingLi.html"
+	},
+	{
+		"Names": "Alex Liu",
+		"pageName": "Alex Liu"
+	},
+	{
+		"Names": "Athanasios Aris (Thanos) Panagopoulos",
+		"pageName": "Athanasios Aris (Thanos) Panagopoulos"
+	},
+	{
+		"Names": "Jin Park",
+		"pageName": "Jin Park"
+	},
+	{
+		"Names": "Matin Pirouz Nia",
+		"pageName": "Matin Pirouz Nia"
+	},
+	{
+		"Names": "David Ruby",
+		"pageName": "David Ruby"
+	},
+	{
+		"Names": "Todd Wilson",
+		"pageName": "Todd Wilson"
+	},
+	{
+		"Names": ""
+	}
+]
