@@ -1,31 +1,31 @@
 [
 	{
 		"Names": "CSCI 1. Critical Thinking and Computer Science",
-		"pageName": "csciOnePage.html"
+		"pageName": "csci1Page.html"
 	},
 	{
 		"Names": "CSCI 5. Computer and Applications",
-		"pageName": "csciFivePage.html"
+		"pageName": "csci5Page.html"
 	},
 	{
 		"Names": "CSCI 30. Introduction to the Internet",
-		"pageName": "csciThirdyPage.html"
+		"pageName": "csci30Page.html"
 	},
 	{
 		"Names": "CSCI 39. Computer Science Principles",
-		"pageName": "csciThirdyNinePage.html"
+		"pageName": "csci39Page.html"
 	},
 	{
 		"Names": "CSCI 40. Introduction to Programming and Problem Solving",
-		"pageName": "csciFourtyPage.html"
+		"pageName": "csci40Page.html"
 	},
 	{
 		"Names": "CSCI 41. Introduction to Data Structures",
-		"pageName": "csciFourtyOnePage.html"
+		"pageName": "csci41Page.html"
 	},
 	{
 		"Names": "CSCI 60. Foundations of Computer Science",
-		"pageName": ""
+		"pageName": "csci60Page.html"
 	},
 	{
 		"Names": "CSCI 68. Computing Practice and Programming",
