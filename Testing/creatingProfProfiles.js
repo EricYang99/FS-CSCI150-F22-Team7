@@ -1,4 +1,5 @@
-let profData = [
+let profData = request('allNamesANdPages.json')
+[
 	{
 		"Name": "Dhanyu Eshaka Amarasinghe",
 		"Faculty Role": "Part Time Faculty",

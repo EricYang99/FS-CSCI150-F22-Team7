@@ -1,101 +1,213 @@
 /*Top of the page CSS/Nav bar*/
 .topbar{
-    position: fixed;
-    background: #b1102b;
-    height: 80px;
-    width: 100%;
-    left: 0;
-    list-style-type: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: large;
-    top: -1px;
+  position: fixed;
+  background: #b1102b;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  list-style-type: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
+  top: -1px;
 }
 
 #searchbar {
-    padding-right: 4%;
-    padding-top: 13px;
-    background-color: #b1102b;
-    fill-opacity: 50%;
+  padding-right: 4%;
+  padding-top: 13px;
+  fill-opacity: 50%;
 }
 
 #topnav {
-    /*padding: 5px;*/
-    padding-left: 4%;
-    overflow: hidden; 
-     
+  /*padding: 5px;*/
+  padding-left: 4%;
+  overflow: hidden;
 }
+
 #topnav li {
-    float: left;
+  float: left;
 }
 
 #topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 #topnav a:hover:not(.active) {
-    background-color: #13284c;
-    border-radius: 5px;
+  background-color: #13284c;
+  border-radius: 5px;
 }
 
 /*Bottom/footer CSS*/
 .bottombar {
-    position: fixed;
-    background-color: #13284c;
-    height: 180px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    padding-left: 12%;
-    display: flex;
-  }
-  
-  .bottombar hr {
-    position: fixed;
-    bottom: 95px;
-    overflow: hidden;
-  }
-  #copyright{
-    position: fixed;
-    bottom: 40px;
-    overflow: hidden;
+  position: fixed;
+  background-color: #13284c;
+  height: 90px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  padding-left: 12%;
+  display: flex;
+}
+
+.bottombar hr {
+  position: fixed;
+  bottom: 95px;
+  overflow: hidden;
+}
+#copyright{
+  position: fixed;
+  bottom: 40px;
+  overflow: hidden;
+  color: whitesmoke;
+  font-family: monospace;
+}
+
+#navtitle, #bottomnav {
     color: whitesmoke;
+    list-style-type: none;
     font-family: monospace;
-  }
-  
-  #navtitle, #bottomnav {
-      color: whitesmoke;
-      list-style-type: none;
-      font-family: monospace;
-  }
-  
-  hr.horizontalbar{
-    border: 3px solid whitesmoke;
-    width: 80%;
-    bottom: 70px;
-  
-  }
+}
+
+hr.horizontalbar{
+  border: 3px solid whitesmoke;
+  width: 80%;
+  bottom: 70px;
+
+}
 /*CSS that cover the page itself*/
 
 body {
-    background-image: url(campus-arial.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+  background-image: url(campus-arial.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 1200px;
 }
 
 #bottomnav, #copyright, #topnav{
-    list-style-type: none;
+  list-style-type: none;
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+  margin-bottom: 180px;
+  width: 100%;
+  align-items: center;
+  background-color: white;
 }
 
 
-  
+/* Auto complete ////////////////////////////////////////////////////////////////*/
+form{
+  display: block;
+  height: 300px;
+  overflow-y: auto;
+  z-index: -1;
+}
 
-  
+.autocomplete {
+  /*the container must be positioned relative*/
+  position: relative;
+  display: inline-block;
+}
 
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: white;
+}
 
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container */
+  top: 100%;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+
+/* This is the class info page css ////////////////////////////////////////////////////////////////////////*/
+.flex-container {
+  display: flex;
+  background-color: #ced1d4;
+  width: 900px;
+  height: 1200px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.flex-containerRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-containerRow > div {
+  text-align: center;
+  line-height: 10px;
+  font-size: 20px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 1px;
+  padding: 2px;
+  font-size: 25px;
+
+}
+
+.tablinks, .tab {
+  color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover, .classTitle {
+  background-color: #b1102b;
+}
+
+.classTitle {
+  color: white;
+  width: 300px;
+  margin: 0 2px 0 40px;
+}
+.classTitle2 {
+  color: black;
+  background-color: white;
+  width: 500px;
+}
+
+#classDescript {
+  margin: 0 50px 0 50px;
+}
+#instructor {
+  margin-left: 40px;
+}
