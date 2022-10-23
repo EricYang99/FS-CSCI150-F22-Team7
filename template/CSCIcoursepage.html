@@ -2,25 +2,23 @@
 <html>
     <head>
         <style>
+            /*Nav bar converts flex elements into columns*/
             .flex-container {
                 display: flex;
                 background-color: #ced1d4;
-                width: 900px;
+                width: 1000px;
                 margin: auto;
                 flex-direction: column;
             }
-
+            
+            /*Flex container for the nested divs inside of .flex-container*/
             .flex-containerRow {
                 display: flex;
                 flex-direction: row;
-            }
-
-            .flex-containerRow > div {
                 text-align: center;
-                line-height: 10px;
-                font-size: 20px;
             }
 
+            /*These attributes apply to all divs with the given .flex-container class*/
             .flex-container > div {
                 background-color: #f1f1f1;
                 margin: 1px;
@@ -29,11 +27,12 @@
 
             }
 
+            /* Nav bar for class page, sets text to given color*/
             .tablinks, .tab {
                 color: white;
             }
 
-            /* Style the buttons inside the tab */
+            /* Styles the buttons inside class nav bar */
             .tab button {
                 background-color: inherit;
                 float: left;
@@ -41,7 +40,7 @@
                 outline: none;
                 cursor: pointer;
                 padding: 14px 16px;
-                transition: 0.3s;
+                transition: 0.9s;
                 font-size: 17px;
             }
 
@@ -50,39 +49,58 @@
                 background-color: #b1102b;
             }
 
+            /* formatting for the Class number and class title*/
             .classTitle {
                 color: white;
                 width: 300px;
                 margin: 0 2px 0 40px;
             }
+            
             .classTitle2 {
                 color: black;
                 background-color: white;
                 width: 500px;
             }
-
+            
+            /*Formatting for class description*/
             #classDescript {
-                margin: 0 50px 0 50px;
+                padding-left: 40px;
             }
+
+            /*Formatting of instructor picutre*/
             #instructor {
                 margin-left: 40px;
+                padding-right: 40px;
             }
 
         </style>
     </head>
-    <body></body>
+    <body>
+        <!--All encompassing container?-->
         <div class="flex-container"> 
+            <!--Nav/Tab Links-->
             <div class="tab" style="background-color:#13284c;">
                 <button class="tablinks" onclick="">Class Description</button>
                 <button class="tablinks" onclick="">Syllabus</button>
                 <button class="tablinks" onclick="">Additional Info</button>
             </div>
+            <!--Class name and title-->
             <div id="classInfo">
                 <div class="flex-containerRow">
                     <div class="classTitle"><h1>CSCI XXX</h1></div>
                     <div class="classTitle2"><h1>Software Engineering</h1></div>
                 </div>
-                    <img id="instructor" src="MatinPirouz.jpg"><br><br>
+                <!--Flex container for Class information-->
+                <div class="flex-containerRow">
+                    <img id="instructor" src="MatinPirouz.jpg">    
+                        <p id="profStats">
+                            Ms. Nothing McStuffing
+                            <br>-Place holder
+                            <br>-Place holder
+                            <br>-Place holder
+                        </p>
+                </div>
+                    <!--Class description-->
                     <p id="classDescript">Captians log, As i work on this project, I learn at how little I know. As i constantly tinker and praddle at the keys on my keyboard, I begin to understand the journey i have undertaken. </p><br>
             </div> 
         </div>
