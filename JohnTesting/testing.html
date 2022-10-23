@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content = "width=device-width, initial-scale=10">
+  <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+  <script src="testing.js" defer></script>
+  <link href="testing.css" type="text/css" rel="stylesheet">
+  <title>Fresno State Class Info</title>
+  <div class = 'parent'>  
+    <div id="image" image>
+      <div class='logo'>
+      <a href="https://www.fresnostate.edu/catalog/subjects/computer-science/c-sci.html">
+      <img alt="Fresno State Class Info" src="Images/ProjectImage2.png"
+     width="100" height="100">
+      </div>
+      </a>
+      <form id = "searchClasses" autocomplete="off">
+        <div class = "autocomplete">
+        <input id = "searchBar" style="overflow: visible;" type = "text" name = "Search" 
+           placeholder = "Search">
+          </div>
+        </form>
+      <script>autocomplete(document.getElementById("searchBar"), csciNames);</script>
+      </div>
+    </div>
+</head>
+
+<body>
+
+
+  <div class="tab">
+  <button class="tablinks" onclick="openTabs(event, 'professor')">Professor</button>
+  <button class="tablinks" onclick="openTabs(event, 'description')">Description</button>
+  <button class="tablinks" onclick="openTabs(event, 'syllabus')">Syllabus</button>
+  <button class="tablinks" onclick="openTabs(event, 'addLinks')">Additional Links</button>
+</div>
+
+  <div id="professor" class="tabcontent">
+        <div class='parent'>
+        <label for="file"><img class = "picture" src=     
+         "https://csm.fresnostate.edu/csci/images/facstaff/dhanyu_amarasinghe.png"       
+         class="upload- 
+          icon"></label>
+        </div>
+        <h1>Professor's Name</h1>
+        <div class = "container" id="imgBox">
+        <div id="prevText"></div>
+          </div>
+      <script>
+        var textBox = document.getElementById("textBox");
+        var imgBox = document.getElementById("imgBox");
+        textBox.onkeyup = textBox.onkeypress = function(){
+          document.getElementById("prevText").innerHTML = this.value;
+          }
+        var loadFile = function(event){
+          imgBox.style.backgroundImage = "url(" +URL.createObjectURL(event.target.files[0])+ 
+          ")";
+          }
+        </script>
+      <h2>Shorthand name and Class Number</h2>
+      <p>This is the home page</p>
+    </div>
+
+  <div id="description" class="tabcontent">
+    <h1>Description</h1>
+    <p>This is the description</p>
+    </div>
+
+  <div id="syllabus" class="tabcontent">
+    <h1>Syllabus</h1>
+    <p>This is the Syllabus</p>
+  </div>
+
+  <div id="addLinks" class="tabcontent">
+    <h1>Additional Links</h1>
+    <p>These are the Additional Links </p>
+    </div>
+
+  <script>
+  function openTabs(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+
+  </body>
+</html>
