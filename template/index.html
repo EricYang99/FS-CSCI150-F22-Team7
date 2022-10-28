@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--When possible, keep this page pure HTML only unless functionality requires inline scirpting.-->
-    <title>
-        Fresno State Class Info
-    </title>
-    <head>
-      <!--External CSS style sheet-->
-        <link rel="stylesheet" href="styles.css">
-        <script src="scripts.js"></script>
-    </head>
-    <!--Start of main body-->
-    <body>
-      <!--Top Navigation Bar as an unordered list-->
-        <div class="topbar">
-            <ul id ="topnav">
-                <li onclick = "loadClassTemplate()"><a href="#home">FS Class info logo</a></li>
-                <li onclick = "aboutUs()"><a href="#aboutus">About Us</a></li>
-                <li onclick = "departments()"><a href="#departments">Departments</a></li>
-                <li onclick = "faculty()"><a href="#faculty">Faculty</a></li>
-                <!--Search bar and 'Go' button-->
-                <li id="searchbar" style="float: right;">
-                    <form id = "searchClasses" autocomplete="off">
-                        <div class = "autocomplete">
-                            <input id = "searchBar" style="overflow: visible;" type = "text" name = "Search" placeholder = "Search">
-                        </div>
-                    </form>
-                    <script>autocomplete(document.getElementById("searchBar"), csciNames);</script>
-                </li>
-                <li id="searchbar" style="float: right; padding-right: 0;">
-                        <button type="submit">Go</button>
-                </li>
-            </ul>
-        </div>
-        <!--insert main page code starting here-->
-        <div class = "container" id = "container">
-        </div>
-        <!--External Javascript
+<!--When possible, keep this page pure HTML only unless functionality requires inline scirpting.-->
+<title>
+  Fresno State Class Info
+</title>
+
+<head>
+  <!--External CSS style sheet-->
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<!--Start of main body-->
+
+<body>
+  <!--Top Navigation Bar as an unordered list-->
+  <div class="topbar">
+    <div>
+      <ul id="topnav">
+        <li onclick="loadClassTemplate()"><a href="#home">FS Class info logo</a></li>
+        <li onclick="loadProfTemplate()"><a href="#aboutus">About Us</a></li>
+        <li onclick="departments()"><a href="#departments">Departments</a></li>
+        <li onclick="faculty()"><a href="#faculty">Faculty</a></li>
+        <!--Search bar and 'Go' button-->
+      </ul>
+      <div class = "endOfTop">
+        <button type="submit" style="float: right; margin-left: 15px;">Go</button>
+        <form id="searchClasses" autocomplete="off">
+          <div class="autocomplete">
+            <input id="searchBar" style="overflow: visible;" type="text" name="Search" placeholder="Search">
+          </div>
+          </form>
+          <script>autocomplete(document.getElementById("searchBar"), csciNames);</script>
+      </div>
+    </div>
+    <div>
+    </div>
+    </div>
+      <!--insert main page code starting here-->
+      <div class="container" id="container">
+      </div>
+      <!--External Javascript
         <script src="scripts.js"></script>-->
-    </body>
-    <!--Footer/Bottom of page-->
-    <footer>
-        <div class="bottombar">
-          <!--Footer navigation-->
-            <p id="navtitle">Testing</p>
-              <ul id="bottomnav">
-                <li>Testing some dumb shit</li>
-              </ul> 
-                <ul id="bottomnav">
-                <li>Testing some dumb shit</li>
-              </ul> 
-                <ul id="bottomnav">
-                <li>Testing some dumb shit</li>
-              </ul> 
-              <!--Copyright year-->
-              <div id="copyright"><script>document.write(new Date().getFullYear())</script>&#169; FSCI, All Rights Reserved.</div>
-            </div>
-    </footer> 
+</body>
+<!--Footer/Bottom of page-->
+<footer>
+  <div class="bottombar">
+    <!--Footer navigation-->
+    <p id="navtitle">Testing</p>
+    <ul id="bottomnav">
+      <li>Testing some dumb shit</li>
+    </ul>
+    <ul id="bottomnav">
+      <li>Testing some dumb shit</li>
+    </ul>
+    <ul id="bottomnav">
+      <li>Testing some dumb shit</li>
+    </ul>
+    <!--Copyright year-->
+    <div id="copyright">
+      <script>document.write(new Date().getFullYear())</script>&#169; FSCI, All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
 </html>

@@ -416,8 +416,119 @@ function faculty(){
 	bod.appendChild(newDiv);
 }
 
+function deleteAll(){
+	let bod = document.getElementById("container");
+	bod.innerHTML = '';
+}
+
+function deleteDisplayCurrentClass(){
+	let bod = document.getElementById("lowerBodyClasses");
+	if(typeof(bod) != 'undefined' && bod != null){
+		bod.innerHTML = '';
+	}
+}
+
+function deleteDisplayCurrentProf(){
+	let bod = document.getElementById("lowerBodProfs");
+	if(typeof(bod) != 'undefined' && bod != null){
+		bod.innerHTML = '';
+	}
+}
+
+let lowerBodClasses = document.createElement('div');
+lowerBodClasses.id = "lowerBodyClasses";
+let lowerBodProfs = document.createElement('div');
+lowerBodProfs.id = "lowerBodProfs";
+
+function displaySyllabusClass() {
+	deleteDisplayCurrentClass();
+	let newSyll = document.createElement('div');
+		newSyll.id = "syllabus";
+		newSyll.className = "tabcontent";
+	let newH1Syll = document.createElement('h1');
+		newH1Syll.appendChild(document.createTextNode("Syllabus"));
+	let newPSyll = document.createElement('p');
+		newPSyll.appendChild(document.createTextNode('This is the syllabus'));
+	newSyll.appendChild(newH1Syll);
+	newSyll.appendChild(newPSyll);
+	lowerBodClasses.appendChild(newSyll);
+}
+
+function displaySyllabusProf() {
+	deleteDisplayCurrentProf();
+	let newSyll = document.createElement('div');
+		newSyll.id = "syllabus";
+		newSyll.className = "tabcontent";
+	let newH1Syll = document.createElement('h1');
+		newH1Syll.appendChild(document.createTextNode("Syllabus"));
+	let newPSyll = document.createElement('p');
+		newPSyll.appendChild(document.createTextNode('This is the syllabus'));
+	newSyll.appendChild(newH1Syll);
+	newSyll.appendChild(newPSyll);
+	lowerBodProfs.appendChild(newSyll);
+}
+
+
+function displayClassInfoClass(){
+	deleteDisplayCurrentClass();
+	let instructorImg = document.createElement("img");
+		instructorImg.id = "instructor";
+		instructorImg.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png";
+		instructorImg.style.width = "150px";
+		instructorImg.style.height = "150px";
+	let classDescript = document.createElement('p');
+		classDescript.id = "classDescript"
+		classDescript.appendChild(document.createTextNode("Captians log, As i work on this project, I learn at how little I know. As i constantly tinker and praddle at the keys on my keyboard, I begin to understand the journey i have undertaken."));
+
+	lowerBodClasses.appendChild(instructorImg);
+	lowerBodClasses.appendChild(classDescript);
+}
+
+function displayClassesProfs(){
+	deleteDisplayCurrentProf();
+	let newDesc = document.createElement('div');
+		newDesc.id = "description";
+		newDesc.className = "tabcontent";
+	let newH1Desc = document.createElement('h1');
+		newH1Desc.appendChild(document.createTextNode("Class List"));
+	let newPDesc = document.createElement('p');
+		newPDesc.appendChild(document.createTextNode('This is the Class List'));
+	newDesc.appendChild(newH1Desc);
+	newDesc.appendChild(newPDesc);
+	lowerBodProfs.appendChild(newDesc);
+}
+
+function displayAdditionalLinksClass(){
+	deleteDisplayCurrentClass();
+	let newLink = document.createElement('div');
+		newLink.id = "addLinks";
+		newLink.className = "tabcontent";
+	let newH1Link = document.createElement('h1');
+		newH1Link.appendChild(document.createTextNode("Additional Links"));
+	let newPLink = document.createElement('p');
+		newPLink.appendChild(document.createTextNode('These are Additional Links'));
+	newLink.appendChild(newH1Link);
+	newLink.appendChild(newPLink);
+	lowerBodClasses.appendChild(newLink);
+}
+
+function displayAdditionalLinksProf(){
+	deleteDisplayCurrentProf();
+	let newLink = document.createElement('div');
+		newLink.id = "addLinks";
+		newLink.className = "tabcontent";
+	let newH1Link = document.createElement('h1');
+		newH1Link.appendChild(document.createTextNode("Additional Links"));
+	let newPLink = document.createElement('p');
+		newPLink.appendChild(document.createTextNode('These are Additional Links'));
+	newLink.appendChild(newH1Link);
+	newLink.appendChild(newPLink);
+	lowerBodProfs.appendChild(newLink);
+}
+
+
 function loadClassTemplate(){
-	deleteAll()
+	deleteAll();
 	let bod = document.getElementById("container");
 
 	//Start of flex-container
@@ -427,20 +538,19 @@ function loadClassTemplate(){
 		//Start of tab
 		let tab = document.createElement('div');
 			tab.className = "tab";
-			tab.style.backgroundColor = "#13284c";
 			let tablink1 = document.createElement('button');
 				tablink1.className = "tablinks";
-				tablink1.onclick = "";
+				tablink1.onclick = displayClassInfoClass;
 				tablink1.appendChild(document.createTextNode("Class Description"));
 
 			let tablink2 = document.createElement('button');
 				tablink2.className = "tablinks";
-				tablink2.onclick = "";
+				tablink2.onclick = displaySyllabusClass;
 				tablink2.appendChild(document.createTextNode("Syllabus"));
 
 			let tablink3 = document.createElement('button');
 				tablink3.className = "tablinks";
-				tablink3.onclick = "";
+				tablink3.onclick = displayAdditionalLinksClass;
 				tablink3.appendChild(document.createTextNode("Additional Info"));
 
 			tab.appendChild(tablink1);
@@ -467,24 +577,77 @@ function loadClassTemplate(){
 				flexContainerRow.appendChild(classTitle2);
 			classInfo.appendChild(flexContainerRow);
 		//End of classInfo
-		let instructorImg = document.createElement('img');
-			instructorImg.id = "instructor";
-			instructorImg.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png";
-			instructorImg.style.width = "150px";
-			instructorImg.style.height = "150px";
-		let classDescript = document.createElement('p');
-			classDescript.id = "classDescript"
-			classDescript.appendChild(document.createTextNode("Captians log, As i work on this project, I learn at how little I know. As i constantly tinker and praddle at the keys on my keyboard, I begin to understand the journey i have undertaken."));
-
 		flexContainer.appendChild(tab);
 		flexContainer.appendChild(classInfo);
-		flexContainer.appendChild(instructorImg);
-		flexContainer.appendChild(classDescript);
+		flexContainer.appendChild(lowerBodClasses);
 	//End of flex-container
 	bod.appendChild(flexContainer);
 }
 
-function deleteAll(){
-	let bod = document.getElementById("container");
-	bod.innerHTML = '';
+function loadProfTemplate(){
+	deleteAll();
+	let container = document.getElementById("container");
+
+	let bod = document.createElement("div");
+		bod.className = "flex-container";
+		bod.id = "flex-container";
+
+		let newTabBar = document.createElement('div');
+			newTabBar.className = "tab";
+			newTabBar.style.backgroundColor = "#13284c";
+			let profButton = document.createElement('button');
+				profButton.className = "profLinks";
+				//profButton.onclick = openTabs(event, 'professor');
+				profButton.value = "Professor";
+				profButton.appendChild(document.createTextNode("Professor"));
+			let descButton = document.createElement('button');
+				descButton.className = "profLinks";
+				descButton.onclick = displayClassesProfs;
+				descButton.value = "Class List";
+				descButton.appendChild(document.createTextNode("Class List"));
+			let syllButton = document.createElement('button');
+				syllButton.className = "profLinks";
+				syllButton.onclick = displaySyllabusProf;
+				syllButton.value = "Syllabus";
+				syllButton.appendChild(document.createTextNode("Syllabus"));
+			let linkButton = document.createElement('button');
+				linkButton.className = "profLinks";
+				linkButton.onclick = displayAdditionalLinksProf;
+				linkButton.value = "Additional Links";
+				linkButton.appendChild(document.createTextNode("Additional Links"));
+
+			newTabBar.appendChild(profButton);
+			newTabBar.appendChild(descButton);
+			newTabBar.appendChild(syllButton);
+			newTabBar.appendChild(linkButton);
+		bod.appendChild(newTabBar);
+
+
+		let newContent = document.createElement('div');
+			newContent.className = "tabContent";
+			newContent.id = "professor";
+			let newParent = document.createElement('div');
+				newParent.className = "parent";
+				let newImg = document.createElement('img');
+					newImg.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png";
+					newImg.className = "upload-icon";
+				newParent.appendChild(newImg);
+			newContent.appendChild(newParent);
+		bod.appendChild(newContent);
+
+		let newH1 = document.createElement('h1');
+			newH1.appendChild(document.createTextNode('Professor\'s Name'));
+			newH1.style.alignContent = "center";
+		bod.appendChild(newH1);
+
+		let newH2 = document.createElement('h2');
+			newH2.appendChild(document.createTextNode("ShortHand name and Class Number"))
+		bod.appendChild(newH2);
+
+		let newP = document.createElement('p');
+			newP.appendChild(document.createTextNode('This is the home page'));
+		bod.appendChild(newP);
+
+		bod.appendChild(lowerBodProfs);
+	container.appendChild(bod);
 }
