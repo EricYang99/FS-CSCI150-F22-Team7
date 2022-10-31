@@ -1,41 +1,29 @@
 {
-    "type": "query results",
-    "query": "SELECT * FROM CSCI",
+    "type": "table",
+    "database": null,
+    "name": "CSCI",
+    "withoutRowId": true,
+    "ddl": "CREATE TABLE CSCI (Name STRING, Units INTEGER, \"Usually Offered In\" STRING, \"Additional Information\" TEXT, Description TEXT);",
     "columns": [
         {
-            "displayName": "Name",
             "name": "Name",
-            "database": null,
-            "table": "CSCI",
             "type": "STRING"
         },
         {
-            "displayName": "Units",
             "name": "Units",
-            "database": null,
-            "table": "CSCI",
-            "type": "STRING"
+            "type": "INTEGER"
         },
         {
-            "displayName": "Usually Offered In",
             "name": "Usually Offered In",
-            "database": null,
-            "table": "CSCI",
             "type": "STRING"
         },
         {
-            "displayName": "Additional Information",
             "name": "Additional Information",
-            "database": null,
-            "table": "CSCI",
-            "type": "STRING"
+            "type": "TEXT"
         },
         {
-            "displayName": "Description",
             "name": "Description",
-            "database": null,
-            "table": "CSCI",
-            "type": "STRING"
+            "type": "TEXT"
         }
     ],
     "rows": [
