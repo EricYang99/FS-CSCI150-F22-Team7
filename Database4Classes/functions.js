@@ -9,6 +9,7 @@ function getName(index){
     bod.appendChild(h1); // Holds h1
     return data[0]["rows"][index][0];
 }
+getName(0);
 
 // Gathers units from data file
 function getUnits(index){
