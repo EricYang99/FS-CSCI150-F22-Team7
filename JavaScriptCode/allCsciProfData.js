@@ -8,7 +8,8 @@ let profData = [
 		"Email Address": "dhanyu@csufresno.edu",
 		"Office Location": "Science II 249",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/dhanyu_amarasinghe.png"
 	},
 	{
 		"Name": "Dr. Brent Auernheimer",
@@ -18,7 +19,8 @@ let profData = [
 		"Email Address": "brent_auernheimer@csufresno.edu",
 		"Office Location": "Science II 280",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/auernheimer.jpg"
 	},
 	{
 		"Name": "Santanu Banerjee",
@@ -28,7 +30,8 @@ let profData = [
 		"Email Address": "santanub@csufresno.edu",
 		"Office Location": "Science II 249",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/unnamed.jpg"
 	},
 	{
 		"Name": "Amith Kamath Belman",
@@ -38,7 +41,8 @@ let profData = [
 		"Email Address": "akamathbelman@mail.fresnostate.edu",
 		"Office Location": "Science II 253",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/hubert_cecotti.jpg"
 	},
 	{
 		"Name": "Hubert Cecotti",
@@ -48,7 +52,8 @@ let profData = [
 		"Email Address": "hcecotti@csufresno.edu",
 		"Office Location": "Science II 263",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/hubert_cecotti.jpg"
 	},
 	{
 		"Name": "Lisa Dennis",
@@ -58,7 +63,8 @@ let profData = [
 		"Email Address": "ldennis@csufresno.edu",
 		"Office Location": "Science II 255",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "N/A"
 	},
 	{
 		"Name": "William Kerney",
@@ -68,7 +74,8 @@ let profData = [
 		"Email Address": "wkerney@mail.fresnostate.edu",
 		"Office Location": "Science II 255",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "N/A"
 	},
 	{
 		"Name": "Dr. Ming Li",
@@ -78,7 +85,8 @@ let profData = [
 		"Email Address": "mingli@csufresno.edu",
 		"Office Location": "Science II 272",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/ming.jpg"
 	},
 	{
 		"Name": "Alex Liu",
@@ -88,7 +96,8 @@ let profData = [
 		"Email Address": "shliu@csufresno.edu",
 		"Office Location": "Science II 271",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/liu2.jpg"
 	},
 	{
 		"Name": "Athanasios Aris (Thanos) Panagopoulos",
@@ -98,7 +107,8 @@ let profData = [
 		"Email Address": "apanagopoulos@csufresno.edu",
 		"Office Location": "Science II 248",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/Thanos%20Pic.jpg"
 	},
 	{
 		"Name": "Jin Park",
@@ -108,7 +118,8 @@ let profData = [
 		"Email Address": "jpark@csufresno.edu",
 		"Office Location": "Science II 277",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/Jin-Park-photo.jpg"
 	},
 	{
 		"Name": "Matin Pirouz Nia",
@@ -118,7 +129,8 @@ let profData = [
 		"Email Address": "mpirouz@csufresno.edu",
 		"Office Location": "Science II 246",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/Matin%20Pirouz%20Nia_Web800.jpg"
 	},
 	{
 		"Name": "David Ruby",
@@ -128,7 +140,8 @@ let profData = [
 		"Email Address": "druby@csufresno.edu",
 		"Office Location": "Science II 273",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/DRuby.jpg"
 	},
 	{
 		"Name": "Todd Wilson",
@@ -138,7 +151,8 @@ let profData = [
 		"Email Address": "twilson@csufresno.edu",
 		"Office Location": "Science II 250",
 		"Department": "Computer Science Department",
-		"Mail Stop": "ST109"
+		"Mail Stop": "ST109",
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/todd.jpg"
 	},
 	{
 		"Name": "Max J Tsai",
@@ -148,7 +162,8 @@ let profData = [
 		"Email Address": "janq@csufresno.edu",
 		"Office Location": "IT 300",
 		"Department": "Computer Science Department",
-		"Mail Stop": "N/A"
+		"Mail Stop": "N/A",
+		"Image": "N/A"
 	}
 ];
 
@@ -161,7 +176,9 @@ let emailAdd = [];
 let officeLoc = [];
 let department = [];
 let mailStop = [];
+let images = [];
 
+// This will push all the data in the array into it's respective array above
 for(let i = 0; i < profData.length; i++){
 	nameProfArr.push(profData[i]["Name"]);
 	roles.push(profData[i]["Faculty Role"]);
@@ -171,8 +188,10 @@ for(let i = 0; i < profData.length; i++){
 	officeLoc.push(profData[i]["Office Location"]);
 	department.push(profData[i]["Department"]);
 	mailStop.push(profData[i]["Mail Stop"]);
+	images.push(profData[i]["Image"]);
 };
 
+// This will display the data for all professors
 function showProfData(){
 	let docBod = document.getElementById("ProfessorContainer");
 	let newTable= document.createElement('TABLE');
@@ -189,7 +208,7 @@ function showProfData(){
 			else{
 				let profInfo = createProfTd(nameProfArr[i], roles[i], deskPhone[i], 
                                          departmentPhone[i], emailAdd[i], officeLoc[i], 
-                                         department[i], mailStop[i]);
+                                         department[i], mailStop[i], images[i]);
 				tr.appendChild(profInfo);
 			}
 			if(j == 3)
@@ -199,13 +218,15 @@ function showProfData(){
     }
 }
 
+// This is for create professor tages
 function createProfTd(name, role, desk, departP, em, officeL, dep, mail){
-
+	// Tags the profDataList with the ID element of 'TD' for reference
 	let profDataList = document.createElement('TD')
 
 	let profName = document.createElement('H2');
 	profName.appendChild(document.createTextNode(name));
 
+	// All of this below follows the element of 'P'
 	let roleName = document.createElement('P');
 	roleName.appendChild(document.createTextNode(role));
 
@@ -227,6 +248,10 @@ function createProfTd(name, role, desk, departP, em, officeL, dep, mail){
     let mailS = document.createElement('P');
 	mailS.appendChild(document.createTextNode(mail));
 
+	let images = document.createElement('P');
+	mailS.appendChild(document.createTextNode(mail));
+
+	// This will append the child of all these nodes 
 	profDataList.appendChild(profName);
 	profDataList.appendChild(roleName);
 	profDataList.appendChild(deskP);
@@ -235,6 +260,7 @@ function createProfTd(name, role, desk, departP, em, officeL, dep, mail){
     profDataList.appendChild(office);
     profDataList.appendChild(depar);
     profDataList.appendChild(mailS);
+	profDataList.appendChild(images);
 	return profDataList;
 }
 
@@ -268,10 +294,15 @@ function getProfDepartment(index){
 function getProfMailStop(index){
 	return mailStop[index];
 }
+function getImages(index){
+	return images[index];
+}
+
 
 //Return all info on a professor
 function getAllDataOfOneProf(index){
 	let singleProfData = [getProfName(index), getProfRole(index), getProfDeskPhone(index), getProfDepartMentPhone(index),
-						  getProfEmail(index), getProfOfficeLoc(index), getProfDepartment(index), getProfMailStop(index)]
+						  getProfEmail(index), getProfOfficeLoc(index), getProfDepartment(index), getProfMailStop(index),
+						  getImages(index)]
 	return singleProfData;
 }
