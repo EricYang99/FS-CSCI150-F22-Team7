@@ -176,7 +176,7 @@ let emailAdd = [];
 let officeLoc = [];
 let department = [];
 let mailStop = [];
-let images = [];
+let csciProfImages = [];
 
 // This will push all the data in the array into it's respective array above
 for(let i = 0; i < profData.length; i++){
@@ -188,7 +188,7 @@ for(let i = 0; i < profData.length; i++){
 	officeLoc.push(profData[i]["Office Location"]);
 	department.push(profData[i]["Department"]);
 	mailStop.push(profData[i]["Mail Stop"]);
-	images.push(profData[i]["Image"]);
+	csciProfImages.push(profData[i]["Image"]);
 };
 
 // This will display the data for all professors
@@ -208,7 +208,7 @@ for(let i = 0; i < profData.length; i++){
 // 			else{
 // 				let profInfo = createProfTd(nameProfArr[i], roles[i], deskPhone[i], 
 //                                          departmentPhone[i], emailAdd[i], officeLoc[i], 
-//                                          department[i], mailStop[i], images[i]);
+//                                          department[i], mailStop[i], csciProfImages[i]);
 // 				tr.appendChild(profInfo);
 // 			}
 // 			if(j == 3)
@@ -248,7 +248,7 @@ for(let i = 0; i < profData.length; i++){
 //     let mailS = document.createElement('P');
 // 	mailS.appendChild(document.createTextNode(mail));
 
-// 	let images = document.createElement('P');
+// 	let csciProfImages = document.createElement('P');
 // 	mailS.appendChild(document.createTextNode(mail));
 
 // 	// This will append the child of all these nodes 
@@ -260,7 +260,7 @@ for(let i = 0; i < profData.length; i++){
 //     profDataList.appendChild(office);
 //     profDataList.appendChild(depar);
 //     profDataList.appendChild(mailS);
-// 	profDataList.appendChild(images);
+// 	profDataList.appendChild(csciProfImages);
 // 	return profDataList;
 // }
 
@@ -294,8 +294,8 @@ function getProfDepartment(index){
 function getProfMailStop(index){
 	return mailStop[index];
 }
-function getImages(index){
-	return images[index];
+function getCsciProfImages(index){
+	return csciProfImages[index];
 }
 
 
@@ -303,6 +303,6 @@ function getImages(index){
 function getAllDataOfOneProf(index){
 	let singleProfData = [getProfName(index), getProfRole(index), getProfDeskPhone(index), getProfDepartMentPhone(index),
 						  getProfEmail(index), getProfOfficeLoc(index), getProfDepartment(index), getProfMailStop(index),
-						  getImages(index)]
+						  getCsciProfImages(index)]
 	return singleProfData;
 }

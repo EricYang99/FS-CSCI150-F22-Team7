@@ -8,6 +8,8 @@
 <head>
   <!--External CSS style sheet-->
   <link rel="stylesheet" href="styles.css">
+  <script src="DataBase4Classes\allCsciData.js"></script>
+  <script src="DataBase4Classes\allCsciProfData.js"></script>
   <script src="scripts.js"></script>
 </head>
 <!--Start of main body-->
@@ -23,24 +25,24 @@
         <li onclick="faculty()"><a href="#faculty">Faculty</a></li>
         <!--Search bar and 'Go' button-->
       </ul>
-      <div class = "endOfTop">
-        <button type="submit" style="float: right; margin-left: 15px;">Go</button>
+      <div class="endOfTop">
+        <button type="submit" style="float: right; margin-left: 15px;" onclick="findSearch()">Go</button>
         <form id="searchClasses" autocomplete="off">
           <div class="autocomplete">
             <input id="searchBar" style="overflow: visible;" type="text" name="Search" placeholder="Search">
           </div>
-          </form>
-          <script>autocomplete(document.getElementById("searchBar"), csciNames);</script>
+        </form>
+        <script>autocomplete(document.getElementById("searchBar"), allCSCINames);</script>
       </div>
     </div>
-    <div>
-    </div>
-    </div>
-      <!--insert main page code starting here-->
-      <div class="container" id="container">
-      </div>
-      <!--External Javascript
+  </div>
+  <!--insert main page code starting here-->
+  <div class="container" id="container">
+  </div>
+  <!--External Javascript
         <script src="scripts.js"></script>-->
+  <script src="DataBase4Classes\functions.js"></script>
+  <script src="scripts.js"></script>
 </body>
 <!--Footer/Bottom of page-->
 <footer>

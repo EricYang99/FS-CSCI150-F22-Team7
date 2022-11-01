@@ -1,282 +1,16 @@
-let csciNamesAndPages = [
-	{
-		"Names": "CSCI 1. Critical Thinking and Computer Science",
-		"pageName": "csciOnePage.html"
-	},
-	{
-		"Names": "CSCI 5. Computer and Applications",
-		"pageName": "csciFivePage.html"
-	},
-	{
-		"Names": "CSCI 30. Introduction to the Internet",
-		"pageName": "csciThirdyPage.html"
-	},
-	{
-		"Names": "CSCI 39. Computer Science Principles",
-		"pageName": "csciThirdyNinePage.html"
-	},
-	{
-		"Names": "CSCI 40. Introduction to Programming and Problem Solving",
-		"pageName": "csciFourtyPage.html"
-	},
-	{
-		"Names": "CSCI 41. Introduction to Data Structures",
-		"pageName": "csciFourtyOnePage.html"
-	},
-	{
-		"Names": "CSCI 60. Foundations of Computer Science",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 68. Computing Practice and Programming",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 100. Introduction to Computational Science",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 101. Computational Foundations for Bioinformatics",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 108. Algorithmic Thinking",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 112. Introduction to Computer Systems",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 113. Introduction to Computer Organization",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 114. Introduction to Operating Systems",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 115. Algorithms and Data Structures",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 117. Structures of Programming Languages",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 119. Introduction to Finite Automata",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 124. Introduction to File Processing",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 126. Database Systems",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 130. Web Programming",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 134. Compiler Design",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 146. Systems Architecture",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 148. Systems Programming",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 150. Introduction to Software Engineering",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 152E. Software Engineering",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 154. Simulation",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 156. Internetworking Systems and Protocols",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 164. Artificial Intelligence Programming",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 166. Principles of Artificial Intelligence",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 168E. Big Data Analytics",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 172. Computer Graphics",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 173. Advanced Computer Graphics",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 174. Design and Analysis of Algorithms",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 176. Parallel Processing",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 177. Distributed Computer Systems",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 186. Formal Languages and Automata",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 188. Introduction to Computability",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 190. Independent Study",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 191T. Topics in Computer Science",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 191T. Computer Security",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 194I. Cooperative Education",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 198. Project",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 200. Introduction to Research in Computer Science",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 201. CSCI Colloquium",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 213. Computer Organization",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 217. Programming Language Principles",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 226. Advanced Database Systems",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 230. Advanced Web Application Development",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 244. Operating Systems",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 246. Computer Architecture",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 250. Advanced Software Engineering",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 252. Software Development and Environments",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 253. Human-Computer Interaction",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 256. Wireless Communications and Mobile Computing",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 264. Artificial Intelligence",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 272. Computer Graphics",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 274. Combinatorial Algorithms",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 282. Theory of Computation",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 284. Automata Theory",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 290. Independent Study",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 291T. Seminar",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 291T. Introduction to Reinforcement Learning",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 291T. Image Processing",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 297. Grad Synthesis",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 298. Research Project",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 298C. Project Continuation",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 299. Master's Thesis",
-		"pageName": ""
-	},
-	{
-		"Names": "CSCI 299C. Thesis Continuation",
-		"pageName": ""
-	}
-]
-let csciNames = [];
-for(let i = 0; i < csciNamesAndPages.length; i++){
-    csciNames.push(csciNamesAndPages[i]["Names"]);
-}
+//These will let us move through all pages
 
+let classIndex = 0;
+let profIndex = 0;
+
+
+let allCSCINames = [];
+for(let i = 0; i < data[0]["rows"].length; i++){
+    allCSCINames.push(data[0]["rows"][i][0]);
+}
+for(let i = 0; i < nameProfArr.length; i++){
+    allCSCINames.push(nameProfArr[i]);
+}
 //This is the auto complete search bar functions. It takes an array and will help auto fill the info based on input
 function autocomplete(inp, arr) {
 	/*the autocomplete function takes two arguments,
@@ -440,51 +174,120 @@ lowerBodClasses.id = "lowerBodyClasses";
 let lowerBodProfs = document.createElement('div');
 lowerBodProfs.id = "lowerBodProfs";
 
+
+function displayProfInfo() {
+	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
+	let newProf = document.createElement('div');
+		newProf.id = "professor";
+		newProf.className = "tabcontent";
+
+	let newH3F = document.createElement('h3');
+		newH3F.appendChild(document.createTextNode(getProfDepartment(profIndex)));
+	newProf.appendChild(newH3F);
+
+	let newH3A = document.createElement('p');
+		newH3A.appendChild(document.createTextNode("Staff/Faculty Role: " + getProfRole(profIndex)));
+	newProf.appendChild(newH3A);
+
+	let newH3B = document.createElement('p');
+		newH3B.appendChild(document.createTextNode("Desk Phone Number: " + getProfDeskPhone(profIndex)));
+	newProf.appendChild(newH3B);
+
+	let newH3C = document.createElement('p');
+		newH3C.appendChild(document.createTextNode("Department Phone Number: " + getProfDepartMentPhone(profIndex)));
+	newProf.appendChild(newH3C);
+
+	let newH3D = document.createElement('p');
+		newH3D.appendChild(document.createTextNode("Email: " + getProfEmail(profIndex)));
+	newProf.appendChild(newH3D);
+
+	let newH3E = document.createElement('p');
+		newH3E.appendChild(document.createTextNode("Office Location: " + getProfOfficeLoc(profIndex)));
+	newProf.appendChild(newH3E);
+
+	let newH3G = document.createElement('p');
+		newH3G.appendChild(document.createTextNode("Mail Stop Location: " + getProfMailStop(profIndex)));
+	newProf.appendChild(newH3G);
+
+	lowerBodProfs.appendChild(newProf);
+}
+
 function displaySyllabusClass() {
 	deleteDisplayCurrentClass();
-	let newSyll = document.createElement('div');
-		newSyll.id = "syllabus";
-		newSyll.className = "tabcontent";
-	let newH1Syll = document.createElement('h1');
-		newH1Syll.appendChild(document.createTextNode("Syllabus"));
-	let newPSyll = document.createElement('p');
-		newPSyll.appendChild(document.createTextNode('This is the syllabus'));
-	newSyll.appendChild(newH1Syll);
-	newSyll.appendChild(newPSyll);
-	lowerBodClasses.appendChild(newSyll);
+	deleteDisplayCurrentProf();
+	let newEmbSyll = document.createElement('embed');
+		newEmbSyll.src = getCsciSyllabus(classIndex);
+	if (newEmbSyll.src.substring(newEmbSyll.src.length-9, newEmbSyll.src.length) != "undefined") {
+		let newSyll = document.createElement('div');
+			newSyll.id = "syllabus";
+			newSyll.className = "tabcontent";
+				newEmbSyll.style.width = "100%";
+				newEmbSyll.style.height = "800px";
+				newEmbSyll.style.alignContent = "center";
+			newSyll.appendChild(newEmbSyll);
+		lowerBodClasses.appendChild(newSyll);
+	}
+	else {
+		let newSyll = document.createElement('div');
+			newSyll.id = "syllabus";
+			newSyll.className = "tabcontent";
+			let unavailable = document.createElement('p');
+			unavailable.appendChild(document.createTextNode("Syllabus unavailable at this time"));
+			newSyll.appendChild(unavailable);
+			lowerBodClasses.appendChild(newSyll);
+	}
 }
 
 function displaySyllabusProf() {
+	deleteDisplayCurrentClass();
 	deleteDisplayCurrentProf();
 	let newSyll = document.createElement('div');
 		newSyll.id = "syllabus";
 		newSyll.className = "tabcontent";
-	let newH1Syll = document.createElement('h1');
-		newH1Syll.appendChild(document.createTextNode("Syllabus"));
-	let newPSyll = document.createElement('p');
-		newPSyll.appendChild(document.createTextNode('This is the syllabus'));
-	newSyll.appendChild(newH1Syll);
+	let newPSyll = document.createElement('embed');
+		//newPSyll.src = "SyllabusData\Syllabus CSCI 166 - Principles of Artificial Intelligence - Fall 2022.pdf";
 	newSyll.appendChild(newPSyll);
+	//<embed src="file_name.pdf" width="800px" height="2100px" />
 	lowerBodProfs.appendChild(newSyll);
 }
 
 
 function displayClassInfoClass(){
 	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
 	let instructorImg = document.createElement("img");
 		instructorImg.id = "instructor";
 		instructorImg.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png";
 		instructorImg.style.width = "150px";
 		instructorImg.style.height = "150px";
+
+	let classUnits = document.createElement('p');
+		classUnits.id = "classDescript";
+		classUnits.appendChild(document.createTextNode(getUnits(classIndex)));
+
+	let classOffered = document.createElement('p');
+		classOffered.id = "classDescript";
+		classOffered.appendChild(document.createTextNode(getOfferedIn(classIndex)));
+
+	let classAddInfo = document.createElement('p');
+		classAddInfo.id = "classDescript";
+		classAddInfo.appendChild(document.createTextNode(getAdditionalInfo(classIndex)));
+
 	let classDescript = document.createElement('p');
-		classDescript.id = "classDescript"
-		classDescript.appendChild(document.createTextNode("Captians log, As i work on this project, I learn at how little I know. As i constantly tinker and praddle at the keys on my keyboard, I begin to understand the journey i have undertaken."));
+		classDescript.id = "classDescript";
+		classDescript.appendChild(document.createTextNode(getDescription(classIndex)));
+
 
 	lowerBodClasses.appendChild(instructorImg);
+	lowerBodClasses.appendChild(classUnits);
+	lowerBodClasses.appendChild(classOffered);
+	lowerBodClasses.appendChild(classAddInfo);
 	lowerBodClasses.appendChild(classDescript);
 }
 
 function displayClassesProfs(){
+	deleteDisplayCurrentClass();
 	deleteDisplayCurrentProf();
 	let newDesc = document.createElement('div');
 		newDesc.id = "description";
@@ -500,6 +303,7 @@ function displayClassesProfs(){
 
 function displayAdditionalLinksClass(){
 	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
 	let newLink = document.createElement('div');
 		newLink.id = "addLinks";
 		newLink.className = "tabcontent";
@@ -513,6 +317,7 @@ function displayAdditionalLinksClass(){
 }
 
 function displayAdditionalLinksProf(){
+	deleteDisplayCurrentClass();
 	deleteDisplayCurrentProf();
 	let newLink = document.createElement('div');
 		newLink.id = "addLinks";
@@ -551,7 +356,7 @@ function loadClassTemplate(){
 			let tablink3 = document.createElement('button');
 				tablink3.className = "tablinks";
 				tablink3.onclick = displayAdditionalLinksClass;
-				tablink3.appendChild(document.createTextNode("Additional Info"));
+				tablink3.appendChild(document.createTextNode("Additional Links"));
 
 			tab.appendChild(tablink1);
 			tab.appendChild(tablink2);
@@ -565,12 +370,12 @@ function loadClassTemplate(){
 				flexContainerRow.className = "flex-containerRow";
 				let classTitle = document.createElement('div');
 					let temp1H1 = document.createElement('h1');
-						temp1H1.appendChild(document.createTextNode("CSCI XXX"))
+						temp1H1.appendChild(document.createTextNode(createShortName(data[0]["rows"][classIndex][0])))
 					classTitle.className = "classTitle";
 					classTitle.appendChild(temp1H1);
 				let classTitle2 = document.createElement('div');
 					let temp2H1 = document.createElement('h1');
-						temp2H1.appendChild(document.createTextNode("Software Engineering"))
+						temp2H1.appendChild(document.createTextNode(createClassName(data[0]["rows"][classIndex][0])))
 					classTitle2.className = "classTitle2";
 					classTitle2.appendChild(temp2H1);
 				flexContainerRow.appendChild(classTitle);
@@ -597,28 +402,27 @@ function loadProfTemplate(){
 			newTabBar.style.backgroundColor = "#13284c";
 			let profButton = document.createElement('button');
 				profButton.className = "profLinks";
-				//profButton.onclick = openTabs(event, 'professor');
-				profButton.value = "Professor";
-				profButton.appendChild(document.createTextNode("Professor"));
+				profButton.onclick = displayProfInfo;
+				profButton.value = "Professor Information";
+				profButton.appendChild(document.createTextNode("Professor Information"));
 			let descButton = document.createElement('button');
 				descButton.className = "profLinks";
 				descButton.onclick = displayClassesProfs;
 				descButton.value = "Class List";
 				descButton.appendChild(document.createTextNode("Class List"));
-			let syllButton = document.createElement('button');
-				syllButton.className = "profLinks";
-				syllButton.onclick = displaySyllabusProf;
-				syllButton.value = "Syllabus";
-				syllButton.appendChild(document.createTextNode("Syllabus"));
+			// let syllButton = document.createElement('button');
+			// 	syllButton.className = "profLinks";
+			// 	syllButton.onclick = displaySyllabusProf;
+			// 	syllButton.value = "Syllabus";
+			// 	syllButton.appendChild(document.createTextNode("Syllabus"));
 			let linkButton = document.createElement('button');
 				linkButton.className = "profLinks";
 				linkButton.onclick = displayAdditionalLinksProf;
 				linkButton.value = "Additional Links";
 				linkButton.appendChild(document.createTextNode("Additional Links"));
-
 			newTabBar.appendChild(profButton);
 			newTabBar.appendChild(descButton);
-			newTabBar.appendChild(syllButton);
+			//newTabBar.appendChild(syllButton);
 			newTabBar.appendChild(linkButton);
 		bod.appendChild(newTabBar);
 
@@ -629,25 +433,82 @@ function loadProfTemplate(){
 			let newParent = document.createElement('div');
 				newParent.className = "parent";
 				let newImg = document.createElement('img');
-					newImg.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png";
+					newImg.src = csciProfImages[profIndex];
 					newImg.className = "upload-icon";
 				newParent.appendChild(newImg);
 			newContent.appendChild(newParent);
 		bod.appendChild(newContent);
 
 		let newH1 = document.createElement('h1');
-			newH1.appendChild(document.createTextNode('Professor\'s Name'));
+			newH1.appendChild(document.createTextNode(nameProfArr[profIndex]));
 			newH1.style.alignContent = "center";
 		bod.appendChild(newH1);
 
-		let newH2 = document.createElement('h2');
-			newH2.appendChild(document.createTextNode("ShortHand name and Class Number"))
-		bod.appendChild(newH2);
-
-		let newP = document.createElement('p');
-			newP.appendChild(document.createTextNode('This is the home page'));
-		bod.appendChild(newP);
+		// let newH3F = document.createElement('h3');
+		// 	newH3F.appendChild(document.createTextNode(getProfDepartment(profIndex)));
+		// bod.appendChild(newH3F);
+		// let newH3A = document.createElement('h3');
+		// 	newH3A.appendChild(document.createTextNode("Staff/Faculty Role: " + getProfRole(profIndex)));
+		// bod.appendChild(newH3A);
+		// let newH3B = document.createElement('h3');
+		// 	newH3B.appendChild(document.createTextNode("Desk Phone Number: " + getProfDeskPhone(profIndex)));
+		// bod.appendChild(newH3B);
+		// let newH3C = document.createElement('h3');
+		// 	newH3C.appendChild(document.createTextNode("Department Phone Number: " + getProfDepartMentPhone(profIndex)));
+		// bod.appendChild(newH3C);
+		// let newH3D = document.createElement('h3');
+		// 	newH3D.appendChild(document.createTextNode("Email: " + getProfEmail(profIndex)));
+		// bod.appendChild(newH3D);
+		// let newH3E = document.createElement('h3');
+		// 	newH3E.appendChild(document.createTextNode("Office Location: " + getProfOfficeLoc(profIndex)));
+		// bod.appendChild(newH3E);
+		// let newH3G = document.createElement('h3');
+		// 	newH3G.appendChild(document.createTextNode("Mail Stop Location: " + getProfMailStop(profIndex)));
+		// bod.appendChild(newH3G);
 
 		bod.appendChild(lowerBodProfs);
 	container.appendChild(bod);
 }
+
+
+function findSearch() {
+	let searchInput = document.getElementById("searchBar").value;
+	let i = 0
+	let max = 0;
+	if (data[0]["rows"].length > nameProfArr.length) {
+		max = data[0]["rows"].length;
+	}
+	else {
+		max = nameProfArr.length;
+	}
+	for (i; i < max; i++) {
+		if (searchInput == data[0]["rows"][i][0]) {
+			classIndex = i;
+			displayClassInfoClass();
+			loadClassTemplate();
+			break;
+		}
+		if (searchInput == nameProfArr[i]) {
+			profIndex = i;
+			displayProfInfo();
+			loadProfTemplate();
+			break;
+		}
+	}
+
+	if (i == max) {
+		alert("Search Not Found!");
+	}
+}
+
+// function findSearch(){
+// 	let searchInput = document.getElementById("searchBar").value;
+// 	for(let i = 0; i < data[0]["rows"].length; i++){
+// 		if(searchInput == data[0]["rows"][i][0]){
+// 			classIndex = i;
+// 			i = data[0]["rows"].length;
+// 		}
+// 	}
+// 	loadClassTemplate();
+// }
+
