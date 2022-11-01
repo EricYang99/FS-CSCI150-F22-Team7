@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>FSCI - Computer Science Faculty</title>
+    <head>
+        <link rel="stylesheet" href="styles1.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="DataBase4Classes\allCsciData.js"></script>
+        <script src="DataBase4Classes\allCsciProfData.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <header></header>
+    <body>
+        <!--Top Navigation Bar as an unordered list-->
+        <div class="topbar">
+            <div>
+            <ul id="topnav">
+                <li><a href="index.html">FS Class info logo</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="CSFaculty.html">Faculty</a></li>
+                <!--Search bar and 'Go' button-->
+            </ul>
+            <div class="endOfTop">
+                <button type="submit" style="float: right; margin-left: 15px;" onclick="findSearch()">Go</button>
+                <form id="searchClasses" autocomplete="off">
+                <div class="autocomplete">
+                    <input id="searchBar" style="overflow: visible;" type="text" name="Search" placeholder="Search">
+                </div>
+                </form>
+                <script>autocomplete(document.getElementById("searchBar"), allCSCINames);</script>
+            </div>
+            </div>
+        </div>
+
+        <br>
+       <h1><p id="pageTitle">Fresno State - Computer Science Faculty</p></h2>
+        <table id="faculty">
+            <thead>
+                <th>Instructor</th>
+                <th>Last Name, First Name</th>
+                <th>Title</th>
+                <th>Info</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="maxTsai.png" alt="Statistics for player 1" width="150"></td>
+                    <td>Tsai, Max J</td>
+                    <td>Part Time Faculty: <br> Interim Director of Digital Transformation</td>
+                    <td>Email: janq@csufresno.edu<br>
+                        <br>Office Location: IT 300
+                    </td> 
+                </tr>
+                <tr>
+                    <td><img src="https://csm.fresnostate.edu/csci/images/facstaff/todd.jpg" alt="Statistics for player 2" width="150"></td>
+                    <td>Wilson, Todd</td>
+                    <td>Faculty</td>
+                    <td>Email: twilson@csufresno.edu<br>
+                        <br>Office Location: Science II 250<br>
+                    </td> 
+                </tr>
+                <tr>
+                    <td><img src="https://csm.fresnostate.edu/csci/images/Matin%20Pirouz%20Nia_Web800.jpg" alt="Statistics for player 3" width="150"></td>
+                    <td>Pirouz Nia, Matin</td> 
+                    <td>Faculty</td>
+                    <td>Email: mpirouz@csufresno.edu<br>
+                        <br>Office Location: Science II 246<br>
+                    </td> 
+                    </td> 
+                </tr>
+                <tr>
+                    <td><img src="https://csm.fresnostate.edu/csci/images/Jin-Park-photo.jpg" alt="Statistics for player 4" width="150"></td>
+                    <td>Park, Jin</td> 
+                    <td>Faculty</td>
+                    <td>Email: jpark@csufresno.edu<br>
+                        <br>Office Location: Science II 277<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://csm.fresnostate.edu/csci/images/Thanos%20Pic.jpg" alt="Statistics for player 5" width="150"></td>
+                    <td>(Thanos) Panagopoulos, Athanasios Aris</td> 
+                    <td>Faculty</td>
+                    <td>Email: apanagopoulos@csufresno.edu<br>
+                        <br>Office Location: Science II 248<br>
+                    </td>
+                </tr>
+               <!-- <tr>
+                    <td><img src="https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/gobulldogs.com/images/2022/8/18/ceja_kassandra.jpg" alt="Statistics for player 6" width="150"></td>
+                    <td>Ceja, Kassandra</td> 
+                    <td>Tenured Professor</td>
+                    <td>Email: Sample@sample.com
+                        <br>Website: URL here
+                        <br>Instructor page: URL here
+                        <br>Classes taught: 
+                        <br>CSCI XXX, CSCI 1XX
+                </tr>
+                <tr>
+                    <td><img src="https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/gobulldogs.com/images/2022/8/18/dohnel_katie.jpg" alt="Statistics for player 7"  width="150"></td>
+                    <td>Dohnel, Katie</td> 
+                    <td>Tenured Professor</td>
+                    <td>Email: Sample@sample.com
+                        <br>Website: URL here
+                        <br>Instructor page: URL here
+                        <br>Classes taught: 
+                        <br>CSCI XXX, CSCI 1XX
+                    </tr>-->
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+        <!--Footer/Bottom of page-->
+        <footer>
+            <div class="bottombar">
+            <!--Footer navigation-->
+            <p id="navtitle">Welcome to the Home Page:</p>
+            <ul id="bottomnav">
+                <li>Search classes with the buttons</li>
+            </ul>
+            <ul id="bottomnav">
+                <li>Search classes by professor</li>
+            </ul>
+            <ul id="bottomnav">
+                <li>Search classes by departments</li>
+            </ul>
+            <!--Copyright year-->
+            <div id="copyright">
+                <script>document.write(new Date().getFullYear())</script>&#169; FSCI, All Rights Reserved.
+            </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

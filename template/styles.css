@@ -84,7 +84,7 @@ hr.horizontalbar{
 /*CSS that cover the page itself*/
 
 body {
-  background-image: url(campus-arial.jpg);
+  /*background-image: url(campus-arial.jpg);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
