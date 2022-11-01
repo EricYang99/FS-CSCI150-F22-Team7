@@ -44,140 +44,140 @@ let data = [{
             "Units: 3",
             "Fall \/ Spring",
             "GE Area: A3",
-            "This will build up your critical thinking skills when it comes to computer science"
+            "Overview of the field of computer science with an emphasis on critical thinking skills. Problem-solving strategies, algorithm design, and data abstraction. Introduction to hardware, theoretical limitations of computers, and issues arising from the growing role of computers in society. "
         ],
         [
             "CSCI 5. Computer and Applications",
             "Units: 3",
             "Fall \/ Spring",
             "",
-            "You will learn about the makeup of a computer and the applications that come with it."
+            "An introduction to the computer: tools, applications, and graphics. Overview of the components of computer systems; discussion on software systems, electronic mail, influence of computers on society and the future of computing; extensive hands-on experience with application tools and programming. PC (Windows) environment."
         ],
         [
             "CSCI 30. Introduction to the Internet",
             "Units: 3",
             "",
             "",
-            "You be introducted to \"wonderful\" world of the Internet and what you can do with it."
+            "Topics include email, web browsers, searching, evaluation of web resources, HTML, web-page design, encryption, basic network communication. Special emphasis on the underlying technologies."
         ],
         [
             "CSCI 39. Computer Science Principles",
             "Units: 3",
             "Fall \/ Spring",
             "",
-            "This will teach students the ethics and procedures of what to expect when going into the field of computer science."
+            "Overview of computer science principles and computational thinking. Creativity and computing, abstraction, data and information, algorithms, programming, the Internet, global impacts. Data analysis and collaborative problem solving."
         ],
         [
             "CSCI 40. Introduction to Programming and Problem Solving",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This will give an introduction to programming through C++ and go through the basic operations, functions, and fundimentals of programming hands on."
+            "Introduction to problem solving, algorithm development, procedural and data abstraction; program design, coding, debugging, testing and documentation; a high-level programming language."
         ],
         [
             "CSCI 41. Introduction to Data Structures",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This shall teach students more in depth programming skills using C++ in which comman data structors shall be learned such as class, queues, stacks, linked-lists, binary trees, and MORE!"
+            "Review of data types. Data structures: linear and nonlinear structures, files. Implementation of data structures. Recursion. Searching and sorting."
         ],
         [
             "CSCI 60. Foundations of Computer Science",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This aim of this class is to learn about the foundations of that make up computer science such as logic, memory modeling functions, and so much more"
+            "Learn about abstraction, iteration, induction, recursion, complexity of programs, data models, and logic."
         ],
         [
             "CSCI 68. Computing Practice and Programming",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This will teach students the best programming practices to use during their programming sessions to provide clean, effiecient code."
+            "A project-based learning (PBL) course covering critical thinking methods through a series of small projects, using Python to solve problems using pedagogies from creativity and critical theories, writing scripts to automate problem-solving."
         ],
         [
             "CSCI 100. Introduction to Computational Science",
             "Units: 3",
             "Fall \/ Spring",
             "GE Area: IB",
-            "This will teach students proper computations that are commonly used in the computer science field."
+            "Fundamental concepts of computational science, computational modeling, computer simulations, and scientific applications. Topics include system-dynamics models, cellular-automaton simulations, computational and modeling tools, scientific visualization, high-performance computing."
         ],
         [
             "CSCI 101. Computational Foundations for Bioinformatics",
             "Units: 3",
             "",
             "",
-            "This will teach students about the computational foundations for bioinformatics."
+            "Computational approaches to problems in molecular biology. Algorithms, heuristics, strings, graphs. Sequence comparison, mulitple alignment. Selected topics such as scripting, visual programming, laboratory workflow, databases, and queries."
         ],
         [
             "CSCI 108. Algorithmic Thinking",
             "Units: 4",
             "Spring",
             "",
-            "This will teach students to thrink through their algorithms to better improve effiecenty and memory usage."
+            "A project-based learning (PBL) course covering object-oriented algorithmic thinking and data structures for science and mathematics pre-service and in-service teachers."
         ],
         [
             "CSCI 112. Introduction to Computer Systems",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This will provide an introduction to computer systems at a deeper level using an assembly language to better understand registers and the use of logic gates."
+            "Computer arithmetic. Von Neumann architecture. Instruction sets, data types, formats, addressing. Register and ALU organization. Memory hierarchy. I\/O Bus organization. Study of one or more assembly languages. Basics of implementation of higher-level languages."
         ],
         [
             "CSCI 113. Introduction to Computer Organization",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This is sort of like CSCI 112 except that you will need to learn how to convert binary into decimal, decimal into hexidecimal, and how to convert any base number into a different system."
+            "Fundamental issues of computer design at register-transfer level. Logical designs of basic combinational and sequential modules. Organization and design of major functional blocks: ALU, CPU, memory, cache, input\/output, hard-wired and microprogrammed control. Simulation of computer organization. INtroduction to high performance superscalar computer organization."
         ],
         [
             "CSCI 114. Introduction to Operating Systems",
             "Units: 3",
             "Fall \/ Spring",
             "",
-            "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!"
+            "Operating system history and services. File systems. Memory management. Process management - concurrent processes, communication, semaphores, monitors, deadlocks. Resource management - processor and disk scheduling. Security and protection mechanisms."
         ],
         [
             "CSCI 115. Algorithms and Data Structures",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "This will teach students advance algorithms and data structures such as hash tables, algorithms for searching, more advance binary search trees, how to use tuples, and many others."
+            "Review of basic data structures. Graph, search paths, and spanning trees. Algorithm design and analysis of sorting, merging, and searching. Memory management, hashing, dynamic storage allocation. Integration of data structures into system design"
         ],
         [
             "CSCI 117. Structures of Programming Languages",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "Pain and suffering await. You might think you're learning about programming enviormnets, garbage collection, how to manage memory efficient, and how to programming using logic. HOWEVER, this will be preparing for massive amounts of pain."
+            "General concepts and paradigms of programming languages; scope and binding rules, applications and implementations of language concepts. Languages selected from: ADA, ICON, Miranda, ML, MODULA 2, OCCAM 2, PROLOG, LISP, Scheme, Smalltalk"
         ],
         [
             "CSCI 119. Introduction to Finite Automata",
             "Units: 4",
             "Fall \/ Spring",
             "",
-            "Even more pain and suffering await. While this might be ment for introducing the idea of Finite State Machines, Regular Expressions, and Normal Forms, this will put missery in your soul through the programming language of Haskell. WARNING: DO NOT TAKE 119 AND 117 TOGETHER. THEY WILL NOT PLAY OFF EACH OTHER. IT WILL ONLY BE HELL!"
+            "Strings, languages, and fundamental proof techniques. Regular expression, regular grammar, regular languages, finite automata, their interrelationship, and their properties. Introduction to context-free languages"
         ],
         [
             "CSCI 124. Introduction to File Processing",
             "Units: 3",
             "",
             "",
-            "Learn how files are processed in the computer and how to properly parse them."
+            "Definition of file components, access methods, and file operations. Algorithms for efficient implementation of data structures; characteristics of bulk storage media for mainframe and microcomputers. Introduction to database management systems."
         ],
         [
             "CSCI 126. Database Systems",
             "Units: 3",
             "Spring",
             "",
-            "This will teach you SQL and how to set up a database properly."
+            "Database concepts; hierarchical and relational network models; object-oriented data models. Data normalization, data description languages, data manipulation languages, and query design."
         ],
         [
             "CSCI 130. Web Programming",
             "Units: 3",
             "Fall",
             "",
-            "You will learn different programming languages to use to make a website and work server side such as HTML5, CSS, and a bunch of others",
+            "Programming for the World Wide Web. Web servers and clients, Internet and Web protocols, and mark-up languages. Client side scripting, including both gateway and filter-based approaches.",
             "DataBase4Classes/SyllabusData/CSCI130Fall2022.pdf"
         ],
         [
@@ -185,21 +185,21 @@ let data = [{
             "Units: 3",
             "",
             "",
-            "Learn what it takes to make a compiler to parse data for the computer to understand."
+            "Syntax and semantics of programming languages. Lexical analysis, parsing techniques, parser generator, SLR and LALR parsing. Introduction to symbol table organization and semantic routines. Compiler generators."
         ],
         [
             "CSCI 146. Systems Architecture",
             "Units: 3",
             "",
             "",
-            "Learn how the different parts of a system interaction."
+            "An in-depth analysis of one or more operating systems -- system data structures, hardware architecture, shell and kernel functions, I\/O routines, interrupt handling. Other topics may include parallel hardware architectures, performance analysis."
         ],
         [
             "CSCI 148. Systems Programming",
             "Units: 3",
             "",
             "",
-            "Learn how to code in the O\/S level."
+            "Topics include implementation of operating system components and modification of existing systems. Device drivers, memory management, communication networks, and file systems will be examined. Projects will be emphasized."
         ],
         [
             "CSCI 150. Introduction to Software Engineering",
@@ -214,21 +214,21 @@ let data = [{
             "Units: 3",
             "Spring",
             "",
-            "This is like 150 except you have to make an actual working producted that is nice looking and completely fills out all requirments for the targeted user."
+            "In-depth examination of techniques for specification, design, implementation, testing, and verification of software. Human-computer interfaces. Formal methods of software development. Use of software engineering tools for the development of substantial software projects."
         ],
         [
             "CSCI 154. Simulation",
             "Units: 3",
             "Spring",
             "",
-            "This will teach you how to model data in a simulated enviorment."
+            "Simulation as a tool for the study of complex systems in computer science, statistics and operations research. Generating random variables. Review of principles behind and examples of simulation languages."
         ],
         [
             "CSCI 156. Internetworking Systems and Protocols",
             "Units: 3",
             "Fall",
             "",
-            "Review of underlying network technologies. Application-level\ninterconnections, network architectures, addressing, mapping abstract addresses to physical addresses,\nrouting datagrams, error and control messages, protocol layering, gateways, subnets. Client-server\ninteractions. Upper layers of protocol stacks.",
+            "Review of underlying network technologies. Application-level interconnections, network architectures, addressing, mapping abstract addresses to physical addresses, routing datagrams, error and control messages, protocol layering, gateways, subnets. Client-server interactions. Upper layers of protocol stacks.",
             "DataBase4Classes/SyllabusData/CSCI156Fall2022.pdf"
         ],
         [
@@ -236,7 +236,7 @@ let data = [{
             "Units: 3",
             "Spring",
             "",
-            "This will give the basics went it comes to programming Artificial Intelligence such as the history behind the field of A.I. and the different formulas that have allowed breakthroughs in this field."
+            "Introduction to problem-solving methods from artificial intelligence. Production systems. Knowledge-based systems. Machine learning. Topics chosen from fuzzy logic, neural network models, genetic algorithms. Verification, validation, testing."
         ],
         [
             "CSCI 166. Principles of Artificial Intelligence",
@@ -251,14 +251,14 @@ let data = [{
             "Units: 3",
             "Fall",
             "",
-            "You will work will large amounts of data in which you will learn to properly organize databases."
+            "Introduction to data mining and knowledge discovery process, big data fundamentals, Map-Reduce: Map and Reduce procedures, dimensionality reduction: Singular Value Decomposition and low-rank approximation, frequent itemsets and association rules, recommender systems: similarity search, spam detection, and mining data streams"
         ],
         [
             "CSCI 172. Computer Graphics",
             "Units: 3",
             "Fall",
             "",
-            "You will learn how to work with matrixes, vectors, textures, and files to create 2D and 3D graphics right you computer by learning the fundiments of how OpenGL works through the language of C++",
+            "Hardware devices, raster graphics, device in dependence, graphic data structure and representations, interactive techniques, and algorithms for the display of two- and three-dimensional objects, graphic transformation, graphics standards, modeling ,animation, VRML, and scientific visualization.",
             "DataBase4Classes/SyllabusData/CSCI172Fall2022.pdf"
         ],
         [
@@ -266,42 +266,42 @@ let data = [{
             "Units: 3",
             "Fall",
             "",
-            "This will teach you not only on how to load data from a file to build graphics on a computer but it will also teach you how collision works, shaders work, different techinques for rendering 3D shapes, and even animations in the OpenGL & GLEW enviornment using C++ as the base codding language."
+            "Visible surface algorithms, lighting and shading, textures, curves and surfaces, computer-aided design, advanced modeling techniques, solid modeling, advanced raster graphics architecture, advanced geometric and raster algorithms, user interface, ray tracing, animation techniques, and fractals."
         ],
         [
             "CSCI 174. Design and Analysis of Algorithms",
             "Units: 3",
             "Fall",
             "",
-            "This will teach you both how algorithms are formed as well as what makes an algorithm work at a base level."
+            "Models of computation and measures of complexity, algorithms for sorting and searching, set representation and manipulation, branch and bound, integer and polynomial arithmetic, pattern-matching algorithms, parsing algorithm, graph algorithm, NP-complete problems."
         ],
         [
             "CSCI 176. Parallel Processing",
             "Units: 3",
             "Spring",
             "",
-            "This will teach you what you can do with parallel processing and how it can be done."
+            "Characteristics, and classification of computer systems. Notion and realization of parallelism. Pipeline design techniques. Vector processing. Array processing. Multiprocessing. Multiprocessing vs. multicomputers. Shared memory vs message-passing, problem solving and parallel programming. Architectural trends."
         ],
         [
             "CSCI 177. Distributed Computer Systems",
             "Units: 3",
             "",
             "",
-            "This will teach you how to work with a collections of computers for server-client, P2P, and hybrid relations"
+            "Characteristics and design of distributed systems. Application and network interconnectivity. Enterprise computing. Distributed data and transaction management. Distributed operating systems. Distributed problem solving and programming."
         ],
         [
             "CSCI 186. Formal Languages and Automata",
             "Units: 3",
             "",
             "",
-            "You will learn how to construct a language in a computer environment"
+            "Introduction to formal language theory. Context-free grammars, context-sensitive grammars, unrestricted grammars; properties of context-free languages, push-down automata."
         ],
         [
             "CSCI 188. Introduction to Computability",
             "Units: 3",
             "",
             "",
-            "You will learn what computability actually is and how to make it good."
+            "Introduction to computability and complexity. Turing machines, recursive functions, reduction, undecidability, classes P and NP, and intractable problems."
         ],
         [
             "CSCI 190. Independent Study",
@@ -315,210 +315,210 @@ let data = [{
             "Units: 3",
             "",
             "Repeatable up to 9 units",
-            "This is for hot topics that are in computer science"
+            "Special topics in computer science of current interest and importance."
         ],
         [
             "CSCI 191T. Computer Security",
             "Units: 3",
             "",
             "",
-            "You will learn how to keep hackers out of your system, what to do encase of a malware attack, how to give permissions to certain users, and how to make a secure system."
+            "This course focuses on selected Cyber Security topics with emphasis on Operating systems security, Network security and Implementation of Attacks and Countermeasures. Topics include access control, vulnerabilities from malicious code, firewalls and intrusion detection, cryptography, secure engineering and programming principles."
         ],
         [
             "CSCI 194I. Cooperative Education",
             "Units: 1-4",
             "",
             "Repeatable up to 8 units",
-            "You will learn with one another to learn something new in computer science"
+            "Integration of work experience with academic program, individually planned through coordinator"
         ],
         [
             "CSCI 198. Project",
             "Units: 3",
             "Fall \/ Spring",
             "",
-            "You will make a project to show off to your fellow peers of your choosing."
+            "Study of a problem under the supervision of a faculty member. Presentation by the student in a seminar setting and a final report are required. Satisfies the senior major requirement for the B.S. in Computer Science"
         ],
         [
             "CSCI 200. Introduction to Research in Computer Science",
             "Units: 1",
             "Fall \/ Spring",
             "",
-            "This will be the start of researching in computer science"
+            "Orientation to the graduate program, introduction to research methodology, and discussion of possible project and thesis topics."
         ],
         [
             "CSCI 201. CSCI Colloquium",
             "Units: 2",
             "Fall \/ Spring",
             "",
-            "....Again, I don't think anyone takes this...."
+            "Colloquium in recent research in Computer Science. Students read, analyze, present, and discuss papers of recent research topics in Computer Science."
         ],
         [
             "CSCI 213. Computer Organization",
             "Units: 3",
             "",
             "",
-            "You will learn how to organize your computer"
+            "Organization of memory, I\/O, and processors. Computer busses. Microprogramming and instruction execution. Interrupts. Data communications."
         ],
         [
             "CSCI 217. Programming Language Principles",
             "Units: 3",
             "Spring",
             "",
-            "You will learn what to do universally when it comes to programming languages"
+            "Advanced topics in programming languages: concurrency, exceptions, types, procedures, execution models. Introduction to the formal specification of programming languages: syntax specification, semantic specification."
         ],
         [
             "CSCI 226. Advanced Database Systems",
             "Units: 3",
             "",
             "",
-            "It's like the first batabase class except more"
+            "Implementation of database systems on modern hardware systems. Operating system design issues, including buffering, page size, prefetching, etc. Query processing algorithms; design of crash recovery and concurrency control."
         ],
         [
             "CSCI 230. Advanced Web Application Development",
             "Units: 3",
             "",
             "",
-            "You will learn more about web application development to the point where you could work for the place that tought you this in the first place."
+            "Application development for the World-Wide Web. Three-tier architecture; authentication, capability, and session management; versioning and open-source development. Case studies and project work."
         ],
         [
             "CSCI 244. Operating Systems",
             "Units: 3",
             "",
             "",
-            "You will learn how an operating system works and how to tinker around with it to get the best results"
+            "Performance monitoring and fine-tuning. Network operating system design. Concurrency, analysis of deadlock. Selected topics from current research."
         ],
         [
             "CSCI 246. Computer Architecture",
             "Units: 3",
             "Fall",
             "",
-            "Learn what makes up a computer at the base level"
+            "Contemporary computer architectures. Pipelined, superscalar, shared and distributed memory, multicore and embedded systems. Memory hierarchy, computer arithmetic, interconnection networks. Selected topics from current research."
         ],
         [
             "CSCI 250. Advanced Software Engineering",
             "Units: 3",
             "",
             "",
-            "CAN WE GET MUCH HIGHER? SO HIGH!"
+            "Theoretical and practical aspects of software engineering emphasizing requirements analysis, specification, design, coding, testing, correctness, maintenance, and management. Examination of reliability, performance, and software metrics."
         ],
         [
             "CSCI 252. Software Development and Environments",
             "Units: 3",
             "",
             "",
-            "Learn how to make software and an enjoyible environment for your user."
+            "Overview of advanced and state-of-the-practice software engineering methodologies and techniques for software development, software environments, software verification, software planning, or cost estimation. Selected topics from current research."
         ],
         [
             "CSCI 253. Human-Computer Interaction",
             "Units: 3",
             "",
             "",
-            "By god, you will learn how to be an ethical programmer and how to maintain health relations between computers and humans"
+            "Software engineering approach to human-computer interaction. Design, evaluation, and implementation of user interfaces and experiences. Modeling, prototyping, inspection, and usability testing. Relationship of user interface characteristics to attention, errors, and efficiency."
         ],
         [
             "CSCI 256. Wireless Communications and Mobile Computing",
             "Units: 3",
             "",
             "",
-            "Learn how wireless communications and how to work with mobile devices"
+            "Review of basic wireless communication concepts, protocols, and architectures. Study of IEEE 802.11 based wireless LANs, wireless mobile ad hoc networks, wireless sensor networks, and wireless mesh networks. Mobile IP and cellular networks"
         ],
         [
             "CSCI 264. Artificial Intelligence",
             "Units: 3",
             "",
             "",
-            "This is for create actually artifical intelligence with supervised, unsupervised, and reinforcement learning."
+            "Software technology for artificial intelligence systems, including expert systems. Knowledge- based and rule-based systems. Explanation and learning. User-oriented interfaces."
         ],
         [
             "CSCI 272. Computer Graphics",
             "Units: 3",
             "",
             "",
-            "Ray tracing and lighting is what you will learn"
+            "3-D transformations, visible surface algorithms, shading, textures, curves and surfaces, computer-aided design, advanced modeling techniques, solid modeling, advanced raster graphics architecture, advanced geometric and raster algorithms, user interface, ray tracing, animation techniques, and fractals."
         ],
         [
             "CSCI 274. Combinatorial Algorithms",
             "Units: 3",
             "",
             "",
-            "Let's be real, no one has taken this course and anyone who says they have is a LIAR!"
+            "Design and analysis of efficient algorithms for combinatorial problems. Network flow theory, matching theory, augmenting-path algorithms, branch-and-bound algorithms, data structure techniques for efficient implementation of combinatorial algorithms, analysis of data structures, application of data structural techniques to sorting, searching, and geometric problems."
         ],
         [
             "CSCI 282. Theory of Computation",
             "Units: 3",
             "",
             "",
-            "You will learn what makes up a computation and what makes it a vaild compuation"
+            "General models of computation, recursive functions, undecidable problems, propositional calculus, predicate calculus, complexity classes, NP-complete problems."
         ],
         [
             "CSCI 284. Automata Theory",
             "Units: 3",
             "",
             "",
-            "Learn about how the deep theories in Nier: Automata"
+            "Formal Languages, abstract machines, algebraic approach to automata, term rewriting systems, formal power series, cryptography, parallel computation."
         ],
         [
             "CSCI 290. Independent Study",
             "Units: 1-3",
             "",
             "Repeatable up to 6 units",
-            "LEARNING ON YOUR OWWWWNNNNN"
+            "See Academic Placement. Approved for SP grading."
         ],
         [
             "CSCI 291T. Seminar",
             "Units: 1-3",
             "",
             "Repeatable up to 9 units",
-            "Get in a group "
+            "Special topics in computer science of current interest and importance."
         ],
         [
             "CSCI 291T. Introduction to Reinforcement Learning",
             "Units: 3",
             "",
             "",
-            "You will learn how to teach an agent to do as you say as you train it rigerously will heavy selective data"
+            "Basic concepts and current trends in reinforcement learning. Markov decision processes, dynamic programming, temporal difference learning. Monte Carlo methods, and the role of function approximation. This topic may not be repeated for credit"
         ],
         [
             "CSCI 291T. Image Processing",
             "Units: 3",
             "",
             "",
-            "You will leanr how to processes an image and what to do with that image once processed"
+            "Key concepts of image processing, from image coding, image compression (e.g. Fourier transform, Wavelets), to feature extraction and image enhancement. Digital image processing includes image format, image statistics, filtering, edge and contour detection, shape detection, thresholding, image match and registration... Requirements: linear algebra, calculus, and statistics. The main applications include optical character recognition, fingerprint detection, and biomedical images recognition. This topic may not be repeated for credit."
         ],
         [
             "CSCI 297. Grad Synthesis",
             "Units: 3",
             "Fall \/ Spring",
             "",
-            "Consolidate that you are still learning computer science"
+            "A synthesis of selected areas in Computer Science, culminating in comprehensive exam covering these areas"
         ],
         [
             "CSCI 298. Research Project",
             "Units: 3",
             "",
             "",
-            "You will personally research a project and demo it to a group of people"
+            "Independent investigation of an advanced topic as the culminating requirement for the master's degree."
         ],
         [
             "CSCI 298C. Project Continuation",
             "Units: 0",
             "",
             "",
-            "If you've taken CSCI 298, it means it took longer than normal"
+            "For continuous enrollment while completing the project. May enroll twice with department approval. Additional enrollments must be approved by the Dean of Graduate Studies."
         ],
         [
             "CSCI 299. Master's Thesis",
             "Units: 3-6",
             "",
             "",
-            "Really long paper on a topic of your choosing in the computer science field"
+            "Criteria for Thesis and Project. Preparation, completion, and submission of an acceptable thesis for the master's degree"
         ],
         [
             "CSCI 299C. Thesis Continuation",
             "Units: 0",
             "",
             "",
-            "I mean really long paper on your topic of your choosing if you've already written up your master thesis"
+            "For continuous enrollment while completing the thesis. May enroll twice with department approval. Additional enrollments must be approved by the Dean of Graduate Studies."
         ]
     ]
 }]
