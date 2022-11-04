@@ -1,0 +1,199 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "Accounting",
+    "withoutRowId": true,
+    "ddl": "CREATE TABLE Accounting (Name STRING, Units INTEGER, \"Usually Offered In\" STRING, \"Additional Information\" TEXT, Description TEXT);",
+    "columns": [
+        {
+            "name": "Name",
+            "type": "STRING"
+        },
+        {
+            "name": "Units",
+            "type": "INTEGER"
+        },
+        {
+            "name": "Usually Offered In",
+            "type": "STRING"
+        },
+        {
+            "name": "Additional Information",
+            "type": "TEXT"
+        },
+        {
+            "name": "Description",
+            "type": "TEXT"
+        }
+    ],
+    "rows": [
+        [
+            "ACCT 3. Essentials of Accounting",
+            "Units: 3",
+            "Fall ",
+            "",
+            "Basic concepts in preparation of business financial statements; introduction to understanding, analyzing, and interpreting accounting data by investors, managers, and creditors for decision making, planning, and control. Only minor attention given to record keeping procedures."
+        ],
+        [
+            "ACCT 4A. Financial Accounting Principles and Systems",
+            "Units: 3",
+            "Fall \/ Spring",
+            "",
+            "Financial accounting; accounting statements, transaction analysis, and data accumulation; partnership and corporation accounting."
+        ],
+        [
+            "ACCT 4B. Managerial Accounting Principles and Systems",
+            "Units: 3",
+            "Fall \/ Spring",
+            "",
+            "Basic coverage of managerial control and decision support tools, job order costing, activity based costing, standard costing, budgeting, relevant costing, and quality control."
+        ],
+        [
+            "ACCT 120A. Intermediate Accounting I",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Preparation and analysis of balance sheet and income statements; basic accounting theory and conceptual framework underlying financial accounting; theory of current assets; theory of current liabilities; investments; revenue recognition; error correction and principle changes; and a review of applicable authoritative pronouncements."
+        ],
+        [
+            "ACCT 120B. Intermediate Accounting II",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "An in-depth study of principles, procedures, and reporting requirements in financial accounting as applied to corporate entities; fixed and other noncurrent assets; income tax allocation; noncurrent liabilities, including pensions and leases; inflation accounting; and cash flow. Special attention is given to authoritative pronouncements."
+        ],
+        [
+            "ACCT 132. Cost Accounting",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Industrial and service industry cost accounting; intermediate level coverage of job order and process costing and standard costing; master budgeting, activity based costing\/management, decision support tools, support department joint cost allocations, and quality control issues. FS"
+        ],
+        [
+            "ACCT 144. Tax Accounting and Planning",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Federal income taxation, research, and planning affecting individuals."
+        ],
+        [
+            "ACCT 145. Federal Income Taxation of Entities and the Federal Uniform Estate and Gift Tax",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Federal income tax laws relating to entities. Primary emphasis placed on tax issues regarding C corporations, S corporations, and partnerships (including limited liability companies). Analysis of the Federal Uniform Estate and Gift tax. Entity tax accounting, return preparation, reporting, and tax research."
+        ],
+        [
+            "ACCT 146S. Accounting Information Systems and Controls SL",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Design of systems used in the collection, organization and reporting of accounting information. Applied knowledge of business cycles and internal system controls using relevant AIS software. Introduction to accounting analytics for managerial reporting, financial analysis, and auditing purposes. Academic topics and skills learned in this class will be applied in a real-world Service-Learning experience."
+        ],
+        [
+            "ACCT 148. Accounting for Governmental and Nonprofit Organizations",
+            "Units: 4",
+            "Fall ",
+            "",
+            "Concepts, principles, and problems of accounting for governmental and nonprofit organizations. Budgeting, fund accounting, cost\/benefit analysis, cash planning and control, and independent auditing are introduced in the context of making decisions in governmental and nonprofit organizations."
+        ],
+        [
+            "ACCT 162. Auditing",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Objectives and techniques in verification of business financial statements; duties, responsibilities, and professional ethics of the auditor; auditor's reports; analysis of internal controls; audits of computerized systems."
+        ],
+        [
+            "ACCT 165. International Accounting",
+            "Units: 4",
+            "",
+            "",
+            "Accounting concepts, principles, and methods for multinational corporations. Currency for translation of financial statements, financial reporting, international accounting and auditing standards, and the managerial aspects of multinational transactions."
+        ],
+        [
+            "ACCT 167. Advanced Accounting Problems",
+            "Units: 4",
+            "",
+            "",
+            "Accounting for corporate consolidations and partnerships."
+        ],
+        [
+            "ACCT 169. Forensic Accounting",
+            "Units: 4",
+            "Fall \/ Spring",
+            "",
+            "Basic forensic and investigative accounting. Case studies from financial accounting, cost accounting, federal income taxes, auditing, business law, and other business disciplines will be used to help students analyze facts and provide usable accounting and financial information. (Formerly ACCT 189T)"
+        ],
+        [
+            "ACCT 170A. CPA Exam Study I: Business Environment and Concepts (BEC) & Financial Accounting and Reporting (FAR)",
+            "Units: 3",
+            "Fall ",
+            "",
+            "The course is available for students in the Professional Accounting Certificate Program only and cannot be used toward undergraduate or graduate degree requirements. The course will cover two of the four exam sections of the national examination required to become a Certified Public Accountant: Auditing and Attestation (AUD) and Regulation (REG)."
+        ],
+        [
+            "ACCT 170B. CPA Exam Study II: Auditing (AUD) & Regulation (REG)",
+            "Units: 3",
+            "Fall ",
+            "",
+            "The course is available for students in the Professional Accounting Certificate Program only and cannot be used toward undergraduate or graduate degree requirements. The course will cover two of the four exam sections of the national examination required to become a Certified Public Accountant: Auditing and Attestation (AUD) and Regulation (REG)."
+        ],
+        [
+            "ACCT 187. Accounting Ethics and Professional Responsibilities",
+            "Units: 3",
+            "Fall \/ Spring",
+            "",
+            "This course examines the Accountants' ethics and professional responsibilities that are integrated in the various roles an accountant undertakes in the recording and reporting of a business processes and financial information."
+        ],
+        [
+            "ACCT 190. Independent Study",
+            "Units: 1-3",
+            "Fall \/ Spring",
+            "Repeatable up to 6 units",
+            "See Academic Placement -- Independent Study. Approved for RP grading."
+        ],
+        [
+            "ACCT 195I. Internship",
+            "Units: 3",
+            "Fall \/ Spring",
+            "Repeatable up to 6 units",
+            "Prerequisite: permission of internship coordinator. Requires 150 hours of work at a pre-qualified, academically-related work station (business, government or nonprofit agency). As a course substitution, prior department approval required. Only one internship may count towards option requirements. CR\/NC grading only."
+        ],
+        [
+            "MSA 220. Advanced Cost\/Managerial Accounting",
+            "Units: 4",
+            "",
+            "",
+            "Coverage of advanced and emerging topics in cost\/managerial accounting, including accounting for quality, performance evaluation, transfer pricing, advanced variance analysis, Just-in-Time, Backflush costing, cost accounting history, capital budgeting, and the measurement of the cost of capacity."
+        ],
+        [
+            "MSA 222. Advanced Financial Accounting",
+            "Units: 4",
+            "Spring",
+            "",
+            "Coverage of advanced financial accounting topics with an in-depth study of principles, proceducres, and reporting requirements of consolidated financial accounting and partnerships.\n\n"
+        ],
+        [
+            "MSA 224. Professional & Legal Responsibilities",
+            "Units: 4",
+            "",
+            "",
+            "Advanced coverage of legal concepts and topics relevant to professional accountants, including agency, contracts, debtor-creditor relationships, government regulation of business, uniform commercial code, and real property.\n\n"
+        ],
+        [
+            "MSA 226. Professional Research & Accountancy Theory",
+            "Units: 4",
+            "",
+            "",
+            "Coverage of accounting theory and the components of authoritative sources for fax, accounting, and audit rules and regulations; examination of a vairety of issues and topics focusing on the authoritative sources to determine and apply relevant codes, rules and regulations.\n\n"
+        ],
+        [
+            "MSA 290. Independent Study",
+            "Units: 1-4",
+            "",
+            "",
+            "Prerequisite: Permission of director and instructor. Approved for RP grading.\n\n"
+        ]
+    ]
+}
