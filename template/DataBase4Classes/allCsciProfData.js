@@ -42,7 +42,7 @@ let profData = [
 		"Office Location": "Science II 253",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/hubert_cecotti.jpg"
+		"Image": "N/A"
 	},
 	{
 		"Name": "Hubert Cecotti",

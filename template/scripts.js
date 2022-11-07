@@ -391,6 +391,7 @@ function loadClassTemplate(){
 
 function loadProfTemplate(){
 	deleteAll();
+	displayProfInfo();
 	let container = document.getElementById("container");
 
 	let bod = document.createElement("div");
@@ -444,28 +445,6 @@ function loadProfTemplate(){
 			newH1.style.alignContent = "center";
 		bod.appendChild(newH1);
 
-		// let newH3F = document.createElement('h3');
-		// 	newH3F.appendChild(document.createTextNode(getProfDepartment(profIndex)));
-		// bod.appendChild(newH3F);
-		// let newH3A = document.createElement('h3');
-		// 	newH3A.appendChild(document.createTextNode("Staff/Faculty Role: " + getProfRole(profIndex)));
-		// bod.appendChild(newH3A);
-		// let newH3B = document.createElement('h3');
-		// 	newH3B.appendChild(document.createTextNode("Desk Phone Number: " + getProfDeskPhone(profIndex)));
-		// bod.appendChild(newH3B);
-		// let newH3C = document.createElement('h3');
-		// 	newH3C.appendChild(document.createTextNode("Department Phone Number: " + getProfDepartMentPhone(profIndex)));
-		// bod.appendChild(newH3C);
-		// let newH3D = document.createElement('h3');
-		// 	newH3D.appendChild(document.createTextNode("Email: " + getProfEmail(profIndex)));
-		// bod.appendChild(newH3D);
-		// let newH3E = document.createElement('h3');
-		// 	newH3E.appendChild(document.createTextNode("Office Location: " + getProfOfficeLoc(profIndex)));
-		// bod.appendChild(newH3E);
-		// let newH3G = document.createElement('h3');
-		// 	newH3G.appendChild(document.createTextNode("Mail Stop Location: " + getProfMailStop(profIndex)));
-		// bod.appendChild(newH3G);
-
 		bod.appendChild(lowerBodProfs);
 	container.appendChild(bod);
 }
@@ -501,14 +480,75 @@ function findSearch() {
 	}
 }
 
-// function findSearch(){
-// 	let searchInput = document.getElementById("searchBar").value;
-// 	for(let i = 0; i < data[0]["rows"].length; i++){
-// 		if(searchInput == data[0]["rows"][i][0]){
-// 			classIndex = i;
-// 			i = data[0]["rows"].length;
-// 		}
-// 	}
-// 	loadClassTemplate();
-// }
 
+
+//Faculty Page creation and onclick events
+function displayFacultyPage(){
+	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
+	deleteAll();
+	let bod = document.getElementById("container");
+
+	//Start of flex-container
+	let flexContainer = document.createElement('div');
+		flexContainer.className = "flex-container";
+
+		let pageTitle = document.createElement('h1');
+			pageTitle.id = "pageTitle";
+			pageTitle.appendChild(document.createTextNode("Fresno State - Computer Science Faculty"));
+		flexContainer.appendChild(pageTitle);
+
+		let facultyTable = document.createElement('table');
+			facultyTable.id = "faculty";
+			let thead = document.createElement('thead');
+				let th1 = document.createElement('th');
+					th1.appendChild(document.createTextNode("Instructor"));
+				let th2 = document.createElement('th');
+					th2.appendChild(document.createTextNode("Professor Name"));
+				let th3 = document.createElement('th');
+					th3.appendChild(document.createTextNode("Faculty Title"));
+				let th4 = document.createElement('th');
+					th4.appendChild(document.createTextNode("Contact Information"));
+			thead.appendChild(th1);
+			thead.appendChild(th2);
+			thead.appendChild(th3);
+			thead.appendChild(th4);
+		facultyTable.appendChild(thead);
+
+		for(let i = 0; i < nameProfArr.length; i++){
+			let tr = document.createElement('tr');
+				tr.onclick = function (){
+					profIndex = i;
+					loadProfTemplate();
+				};
+				let tdImg = document.createElement('td');
+					if(csciProfImages[i] == "N/A"){
+						tdImg.appendChild(document.createTextNode("Image N/A"))
+						tdImg.style.paddingTop = "95px";
+						tdImg.style.paddingBottom = "95px";
+					}
+					else{
+						let tempImg = document.createElement('img');
+						tempImg.src = csciProfImages[i];
+						tempImg.alt = "Statistics for player " + i+1;
+						tempImg.style.width = "150px";
+						tempImg.style.height = "180px";
+						tdImg.appendChild(tempImg);
+					}
+
+				let tdName = document.createElement('td');
+					tdName.appendChild(document.createTextNode(nameProfArr[i]));
+				let tdFacultyRole = document.createElement('td');
+					tdFacultyRole.appendChild(document.createTextNode(roles[i]));
+				let tdContact = document.createElement('td');
+					tdContact.innerHTML = emailAdd[i] + "<br>" + officeLoc[i] + "<br>";
+
+			tr.appendChild(tdImg);
+			tr.appendChild(tdName);
+			tr.appendChild(tdFacultyRole);
+			tr.appendChild(tdContact);
+			facultyTable.appendChild(tr);
+		}
+
+		bod.appendChild(facultyTable);
+}
