@@ -365,3 +365,99 @@ p {
   text-align: center; color: #000;  margin-top: 80px; background-color: whitesmoke;
   width: 40%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html, body {
+  background: linear-gradient(180deg, #75ddff 80%, #f4f7fb 20%);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;} */
+
+/* Style the tab */
+
+.flex-containerAtoZ {
+  display: flex;
+  background-color: #ced1d4;
+  width: 900px;
+  height: 1200px;
+  margin: auto;
+  flex-direction: row;
+}
+
+.flex-containerAtoZ > div {
+  background-color: #f1f1f1;
+  margin: 1px;
+  padding: 2px;
+  font-size: 25px;
+
+}
+
+.flexTab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 7%;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+
+
+
+/* Style the buttons inside the tab */
+.flexTab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.flexTab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.flexTab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabDepartmentContent {
+  right:0;
+  /* padding: 0px 12px; */
+  border: 1px solid #ccc;
+  width: 93%;
+  border-left: none;
+  height: 500px;
+}

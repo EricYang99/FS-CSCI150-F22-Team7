@@ -482,6 +482,9 @@ function findSearch() {
 
 
 
+
+
+
 //Faculty Page creation and onclick events
 function displayFacultyPage(){
 	deleteDisplayCurrentClass();
@@ -552,3 +555,60 @@ function displayFacultyPage(){
 
 		bod.appendChild(facultyTable);
 }
+
+
+
+
+
+
+
+
+
+
+
+//Loading A-Z Pages for Departments
+let departMentPageBody = document.createElement('div');
+departMentPageBody.id = "tabDepartmentContent";
+departMentPageBody.className = "tabDepartmentContent";
+
+//Function to load in the department Page
+function loadDepartmentAtoZ(){
+	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
+	deleteAll();
+	let bod = document.getElementById("container");
+
+	//Start of flex-container
+	let flexContainer = document.createElement('div');
+		flexContainer.className = "flex-containerAtoZ";
+
+		let flexTab = document.createElement('div');
+			flexTab.className = "flexTab";
+		for(let i = 0; i < 26; i++){
+			let newBtn = document.createElement('button');
+			newBtn.className = "scrollLinks";
+			newBtn.onclick = function(){
+				departMentPageBody.innerHTML = "";
+					let dep = document.createElement('h3');
+					let p = document.createElement('p');
+						dep.appendChild(document.createTextNode('Department'));
+						p.appendChild(document.createTextNode(String.fromCharCode(i+65) + " List: "));
+					departMentPageBody.appendChild(dep);
+					departMentPageBody.appendChild(p);
+				flexContainer.appendChild(departMentPageBody);
+			};
+			newBtn.appendChild(document.createTextNode(String.fromCharCode(i+65)));
+			flexTab.appendChild(newBtn);
+		}
+		departMentPageBody.innerHTML = "";
+			let dep = document.createElement('h3');
+			let p = document.createElement('p');
+				dep.appendChild(document.createTextNode('Department'));
+				p.appendChild(document.createTextNode(String.fromCharCode(65) + " List: "));
+			departMentPageBody.appendChild(dep);
+			departMentPageBody.appendChild(p);
+		flexContainer.appendChild(flexTab);
+		flexContainer.appendChild(departMentPageBody);
+	bod.appendChild(flexContainer);
+}
+
