@@ -163,7 +163,7 @@ let profData = [
 		"Office Location": "IT 300",
 		"Department": "Computer Science Department",
 		"Mail Stop": "N/A",
-		"Image": "N/A"
+		"Image": "DataBase4Classes/maxTsai.png"
 	}
 ];
 
