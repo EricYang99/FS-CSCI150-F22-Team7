@@ -592,42 +592,44 @@ departMentPageBody.className = "tabDepartmentContent";
 
 //Function to load in the department Page
 function loadDepartmentAtoZ(){
-	deleteDisplayCurrentClass();
-	deleteDisplayCurrentProf();
-	deleteAll();
-	let bod = document.getElementById("container");
+    deleteDisplayCurrentClass();
+    deleteDisplayCurrentProf();
+    deleteAll();
+    let bod = document.getElementById("container");
 
-	//Start of flex-container
-	let flexContainer = document.createElement('div');
-		flexContainer.className = "flex-containerAtoZ";
+    //Start of flex-container
+    let flexContainer = document.createElement('div');
+        flexContainer.className = "flex-containerAtoZ";
 
-		let flexTab = document.createElement('div');
-			flexTab.className = "flexTab";
-		for(let i = 0; i < 26; i++){
-			let newBtn = document.createElement('button');
-			newBtn.className = "scrollLinks";
-			newBtn.onclick = function(){
-				departMentPageBody.innerHTML = "";
-					let dep = document.createElement('h3');
-					let p = document.createElement('p');
-						dep.appendChild(document.createTextNode('Department'));
-						p.appendChild(document.createTextNode(String.fromCharCode(i+65) + " List: "));
-					departMentPageBody.appendChild(dep);
-					departMentPageBody.appendChild(p);
-				flexContainer.appendChild(departMentPageBody);
-			};
-			newBtn.appendChild(document.createTextNode(String.fromCharCode(i+65)));
-			flexTab.appendChild(newBtn);
-		}
-		departMentPageBody.innerHTML = "";
+        let flexTab = document.createElement('div');
+            flexTab.className = "flexTab";
+        for(let i = 0; i < 26; i++){
+            let newBtn = document.createElement('button');
+            newBtn.className = "scrollLinks";
+            newBtn.onclick = function(){
+                departMentPageBody.innerHTML = "";
+                    for(let j = 0; j < departmentNames[0][String.fromCharCode(i+65)].length; j++){
+                        let dep = document.createElement('h3');
+                        dep.appendChild(document.createTextNode(departmentNames[0][String.fromCharCode(i+65)][j]));
+                        departMentPageBody.appendChild(dep);
+						for(let k = 0; k < data[0]["rows"].length; k++){
+							let p = document.createElement('p');
+							p.appendChild(document.createTextNode(data[0]["rows"][k][0]));
+							departMentPageBody.appendChild(p);
+						}
+                    }
+                flexContainer.appendChild(departMentPageBody);
+            };
+            newBtn.appendChild(document.createTextNode(String.fromCharCode(i+65)));
+            flexTab.appendChild(newBtn);
+        }
+        departMentPageBody.innerHTML = "";
+		for(let j = 0; j < departmentNames[0]['A'].length; j++){
 			let dep = document.createElement('h3');
-			let p = document.createElement('p');
-				dep.appendChild(document.createTextNode('Department'));
-				p.appendChild(document.createTextNode(String.fromCharCode(65) + " List: "));
+			dep.appendChild(document.createTextNode(departmentNames[0]['A'][j]));
 			departMentPageBody.appendChild(dep);
-			departMentPageBody.appendChild(p);
-		flexContainer.appendChild(flexTab);
-		flexContainer.appendChild(departMentPageBody);
-	bod.appendChild(flexContainer);
+		}
+        flexContainer.appendChild(flexTab);
+        flexContainer.appendChild(departMentPageBody);
+    bod.appendChild(flexContainer);
 }
-
