@@ -292,7 +292,7 @@ function displayClassesProfs(){
 	let newDesc = document.createElement('div');
 		newDesc.id = "description";
 		newDesc.className = "tabcontent";
-		let list = getCsciList(profIndex)
+		let list = getCsciList(profIndex);
 		for(let i = 0; i < list.length; i++){
 			let p = document.createElement('p');
 			p.onclick = function () {

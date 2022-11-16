@@ -10,7 +10,10 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/dhanyu_amarasinghe.png",
-		"Call List:": [],
+		"Class List": ["CSCI 40. Introduction to Programming and Problem Solving", "CSCI 41. Introduction to Data Structures", 
+					   "CSCI 100. Introduction to Computational Science", "CSCI 172. Computer Graphics",
+					   "CSCI 173. Advanced Computer Graphics", "CSCI 191T. Topics in Computer Science",
+					   "CSCI 272. Computer Graphics"],
 		"Additional Links": []
 	},
 	{
@@ -23,7 +26,8 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/auernheimer.jpg",
-		"Call List:": [],
+		"Class List": ["CSCI 200. Introduction to Research in Computer Science", "CSCI 201. CSCI Colloquium",
+					   "CSCI 250. Advanced Software Engineering"],
 		"Additional Links": []
 	},
 	{
@@ -36,7 +40,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/unnamed.jpg",
-		"Call List:": [],
+		"Class List": ["CSCI 112. Introduction to Computer Systems"],
 		"Additional Links": []
 	},
 	{
@@ -49,7 +53,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "N/A",
-		"Call List:": [],
+		"Class List": ["CSCI 41. Introduction to Data Structures", "CSCI 191T. Computer Security"],
 		"Additional Links": []
 	},
 	{
@@ -62,7 +66,10 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/hubert_cecotti.jpg",
-		"Call List:": [],
+		"Class List": ["CSCI 41. Introduction to Data Structures", "CSCI 115. Algorithms and Data Structures",
+					   "CSCI 130. Web Programming", "CSCI 190. Independent Study", "CSCI 191T. Topics in Computer Science",
+					   "CSCI 198. Project", "CSCI 244. Operating Systems", "CSCI 291T. Introduction to Reinforcement Learning",
+					   "CSCI 298. Research Project"],
 		"Additional Links": []
 	},
 	{
@@ -75,7 +82,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "N/A",
-		"Call List:": [],
+		"Class List": [],
 		"Additional Links": []
 	},
 	{
@@ -88,7 +95,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "N/A",
-		"Call List:": [],
+		"Class List": ["CSCI 1. Critical Thinking and Computer Science"],
 		"Additional Links": []
 	},
 	{
@@ -101,7 +108,10 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/ming.jpg",
-		"Call List:": [],
+		"Class List": ["CSCI 1. Critical Thinking and Computer Science", "CSCI 40. Introduction to Programming and Problem Solving",
+					   "CSCI 41. Introduction to Data Structures", "CSCI 114. Introduction to Operating Systems",
+					   "CSCI 148. Systems Programming", "CSCI 156. Internetworking Systems and Protocols",
+					   "CSCI 191T. Topics in Computer Science", "CSCI 256. Wireless Communications and Mobile Computing"],
 		"Additional Links": []
 	},
 	{
@@ -114,7 +124,10 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/liu2.jpg",
-		"Call List:": [],
+		"Class List": ["CSCI 40. Introduction to Programming and Problem Solving", "CSCI 41. Introduction to Data Structures",
+					   "CSCI 150. Introduction to Software Engineering", "CSCI 152E. Software Engineering", 
+					   "CSCI 191T. Topics in Computer Science", "CSCI 250. Advanced Software Engineering",
+					   "CSCI 252. Software Development and Environments", "CSCI 253. Human-Computer Interaction"],
 		"Additional Links": []
 	},
 	{
@@ -127,7 +140,8 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/Thanos%20Pic.jpg",
-		"Call List:": [],
+		"Class List": ["CSCI 60. Foundations of Computer Science", "CSCI 154. Simulation",
+					   "CSCI 191T. Topics in Computer Science","CSCI 291T. Seminar"],
 		"Additional Links": []
 	},
 	{
@@ -140,7 +154,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/Jin-Park-photo.jpg",
-		"Call List:": [],
+		"Class List": [],
 		"Additional Links": []
 	},
 	{
@@ -153,7 +167,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/Matin%20Pirouz%20Nia_Web800.jpg",
-		"Call List:": [],
+		"Class List": [],
 		"Additional Links": []
 	},
 	{
@@ -166,7 +180,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/DRuby.jpg",
-		"Call List:": [],
+		"Class List": [],
 		"Additional Links": []
 	},
 	{
@@ -179,7 +193,7 @@ let profData = [
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
 		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/todd.jpg",
-		"Call List:": [],
+		"Class List": [],
 		"Additional Links": []
 	},
 	{
