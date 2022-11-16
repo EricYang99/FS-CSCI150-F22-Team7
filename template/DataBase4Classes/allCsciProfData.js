@@ -9,7 +9,9 @@ let profData = [
 		"Office Location": "Science II 249",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/dhanyu_amarasinghe.png"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/dhanyu_amarasinghe.png",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Dr. Brent Auernheimer",
@@ -20,7 +22,9 @@ let profData = [
 		"Office Location": "Science II 280",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/auernheimer.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/auernheimer.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Santanu Banerjee",
@@ -31,7 +35,9 @@ let profData = [
 		"Office Location": "Science II 249",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/unnamed.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/icons/unnamed.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Amith Kamath Belman",
@@ -42,7 +48,9 @@ let profData = [
 		"Office Location": "Science II 253",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "N/A"
+		"Image": "N/A",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Hubert Cecotti",
@@ -53,7 +61,9 @@ let profData = [
 		"Office Location": "Science II 263",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/hubert_cecotti.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/hubert_cecotti.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Lisa Dennis",
@@ -64,7 +74,9 @@ let profData = [
 		"Office Location": "Science II 255",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "N/A"
+		"Image": "N/A",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "William Kerney",
@@ -75,7 +87,9 @@ let profData = [
 		"Office Location": "Science II 255",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "N/A"
+		"Image": "N/A",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Dr. Ming Li",
@@ -86,7 +100,9 @@ let profData = [
 		"Office Location": "Science II 272",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/ming.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/ming.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Alex Liu",
@@ -97,7 +113,9 @@ let profData = [
 		"Office Location": "Science II 271",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/liu2.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/liu2.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Athanasios Aris (Thanos) Panagopoulos",
@@ -108,7 +126,9 @@ let profData = [
 		"Office Location": "Science II 248",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/Thanos%20Pic.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/Thanos%20Pic.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Jin Park",
@@ -119,7 +139,9 @@ let profData = [
 		"Office Location": "Science II 277",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/Jin-Park-photo.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/Jin-Park-photo.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Matin Pirouz Nia",
@@ -130,7 +152,9 @@ let profData = [
 		"Office Location": "Science II 246",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/Matin%20Pirouz%20Nia_Web800.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/Matin%20Pirouz%20Nia_Web800.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "David Ruby",
@@ -141,7 +165,9 @@ let profData = [
 		"Office Location": "Science II 273",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/DRuby.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/DRuby.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Todd Wilson",
@@ -152,7 +178,9 @@ let profData = [
 		"Office Location": "Science II 250",
 		"Department": "Computer Science Department",
 		"Mail Stop": "ST109",
-		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/todd.jpg"
+		"Image": "https://csm.fresnostate.edu/csci/images/facstaff/todd.jpg",
+		"Call List:": [],
+		"Additional Links": []
 	},
 	{
 		"Name": "Max J Tsai",
@@ -163,7 +191,10 @@ let profData = [
 		"Office Location": "IT 300",
 		"Department": "Computer Science Department",
 		"Mail Stop": "N/A",
-		"Image": "DataBase4Classes/maxTsai.png"
+		"Image": "DataBase4Classes/maxTsai.png",
+		"Class List": ["CSCI 150. Introduction to Software Engineering"],
+		"Additional Links": ["https://www.itprotoday.com/devops-and-software-development/programmer-vs-developer-vs-engineer-what-s-difference",
+							 "https://www.youtube.com/watch?v=gLYYXKL-Jug"]
 	}
 ];
 
@@ -177,6 +208,8 @@ let officeLoc = [];
 let department = [];
 let mailStop = [];
 let csciProfImages = [];
+let classList = [];
+let additionalLinks = [];
 
 // This will push all the data in the array into it's respective array above
 for(let i = 0; i < profData.length; i++){
@@ -189,6 +222,8 @@ for(let i = 0; i < profData.length; i++){
 	department.push(profData[i]["Department"]);
 	mailStop.push(profData[i]["Mail Stop"]);
 	csciProfImages.push(profData[i]["Image"]);
+	classList.push(profData[i]["Class List"]);
+	additionalLinks.push(profData[i]["Additional Links"])
 };
 
 // This will display the data for all professors
@@ -296,6 +331,12 @@ function getProfMailStop(index){
 }
 function getCsciProfImages(index){
 	return csciProfImages[index];
+}
+function getCsciList(index){
+	return classList[index];
+}
+function getCsciLinks(index){
+	return additionalLinks[index];
 }
 
 

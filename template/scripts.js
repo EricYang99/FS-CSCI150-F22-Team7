@@ -292,12 +292,22 @@ function displayClassesProfs(){
 	let newDesc = document.createElement('div');
 		newDesc.id = "description";
 		newDesc.className = "tabcontent";
-	let newH1Desc = document.createElement('h1');
-		newH1Desc.appendChild(document.createTextNode("Class List"));
-	let newPDesc = document.createElement('p');
-		newPDesc.appendChild(document.createTextNode('This is the Class List'));
-	newDesc.appendChild(newH1Desc);
-	newDesc.appendChild(newPDesc);
+		let list = getCsciList(profIndex)
+		for(let i = 0; i < list.length; i++){
+			let p = document.createElement('p');
+			p.onclick = function () {
+				for (let j = 0; j < data[0]["rows"].length; j++) {
+					if (list[i] == data[0]["rows"][j][0]) {
+						classIndex = j;
+						displayClassInfoClass();
+						loadClassTemplate();
+						break;
+					}
+				}
+			};
+			p.appendChild(document.createTextNode(list[i]));
+			newDesc.appendChild(p);
+		}
 	lowerBodProfs.appendChild(newDesc);
 }
 
@@ -307,12 +317,14 @@ function displayAdditionalLinksClass(){
 	let newLink = document.createElement('div');
 		newLink.id = "addLinks";
 		newLink.className = "tabcontent";
-	let newH1Link = document.createElement('h1');
-		newH1Link.appendChild(document.createTextNode("Additional Links"));
-	let newPLink = document.createElement('p');
-		newPLink.appendChild(document.createTextNode('These are Additional Links'));
-	newLink.appendChild(newH1Link);
-	newLink.appendChild(newPLink);
+
+		// let list = getCsciLinks(profIndex)
+		// for(let i = 0; i < list.length; i++){
+		// 	let a = document.createElement('a');
+		// 	a.appendChild(document.createTextNode(list[i]));
+		// 	a.src = list[i];
+		// 	newLink.appendChild(a);
+		// }
 	lowerBodClasses.appendChild(newLink);
 }
 
@@ -322,12 +334,18 @@ function displayAdditionalLinksProf(){
 	let newLink = document.createElement('div');
 		newLink.id = "addLinks";
 		newLink.className = "tabcontent";
-	let newH1Link = document.createElement('h1');
-		newH1Link.appendChild(document.createTextNode("Additional Links"));
-	let newPLink = document.createElement('p');
-		newPLink.appendChild(document.createTextNode('These are Additional Links'));
-	newLink.appendChild(newH1Link);
-	newLink.appendChild(newPLink);
+		let newList = document.createElement('ul')
+		let list = getCsciLinks(profIndex)
+		for(let i = 0; i < list.length; i++){
+			let li = document.createElement('li');
+			let a = document.createElement('a');
+			a.appendChild(document.createTextNode(list[i]));
+			a.href = list[i];
+			a.target = "_blank";
+			li.appendChild(a);
+			newList.appendChild(li);
+		}
+		newLink.appendChild(newList);
 	lowerBodProfs.appendChild(newLink);
 }
 
