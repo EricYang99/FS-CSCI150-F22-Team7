@@ -295,6 +295,7 @@ function displayClassesProfs(){
 		let list = getCsciList(profIndex);
 		for(let i = 0; i < list.length; i++){
 			let p = document.createElement('p');
+			p.className = "PartOfClassList";
 			p.onclick = function () {
 				for (let j = 0; j < data[0]["rows"].length; j++) {
 					if (list[i] == data[0]["rows"][j][0]) {

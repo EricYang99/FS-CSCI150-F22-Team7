@@ -483,3 +483,9 @@ body {font-family: "Lato", sans-serif;} */
   background-image: url('classroomStocksmol.png');
   background-repeat: no-repeat;
 }
+
+
+
+.PartOfClassList:hover{
+  cursor: pointer;
+}
