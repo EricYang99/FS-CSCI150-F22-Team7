@@ -1,5 +1,4 @@
 //These will let us move through all pages
-
 let classIndex = 0;
 let profIndex = 0;
 
@@ -111,17 +110,130 @@ function autocomplete(inp, arr) {
   	});
 }
 
+
+//This will display our about us page dynamically. Auto starts with Eric
+let aboutUsIndex = "Eric";
+
+function deleteAllAboutPerson(){
+	let bod = document.getElementById("aboutPerson");
+	if(typeof(bod) != 'undefined' && bod != null){
+		let name = document.getElementById("AboutUsName");
+		let role = document.getElementById("AboutUsRole");
+		let email = document.getElementById("AboutUsEmail");
+		let pic2 = document.getElementById("AboutUsPic2");
+		let quote = document.getElementById("AboutUsQuote");
+		let Contributions = document.getElementById("AboutUsContributions");
+		let bod2 = document.getElementById("aboutCons");
+
+		name.remove();
+		role.remove();
+		email.remove();
+		pic2.remove();
+		quote.remove();
+		Contributions.innerHTML = '';
+		Contributions.remove();
+		bod.innerHTML = '';
+		bod.remove();
+		bod2.innerHTML = '';
+		bod2.remove();
+	}
+}
+
+function displayAboutPerson(){
+	deleteAllAboutPerson();
+	let bod = document.getElementById("fakeGrid");
+		let aboutPerson = document.createElement("div");
+			aboutPerson.id = "aboutPerson";
+			let name = document.createElement('h1');
+				name.appendChild(document.createTextNode(aboutUsIndex));
+				name.id = "AboutUsName";
+			let role = document.createElement('p');
+				role.appendChild(document.createTextNode("Role: " + aboutUsData[aboutUsIndex]["Role"]));
+				role.id = "AboutUsRole";
+			let email = document.createElement('p');
+				email.appendChild(document.createTextNode("Email: " + aboutUsData[aboutUsIndex]["Email"]));
+				email.id = "AboutUsEmail";
+			let pic2 = document.createElement('img');
+				pic2.src = aboutUsData[aboutUsIndex]["Pic2"];
+				pic2.id = "AboutUsPic2";
+			let quote = document.createElement('p');
+				quote.appendChild(document.createTextNode("Quote: " + aboutUsData[aboutUsIndex]["Quote"]));
+				quote.id = "AboutUsQuote";
+		aboutPerson.appendChild(name);
+		aboutPerson.appendChild(pic2);
+		aboutPerson.appendChild(email);
+		aboutPerson.appendChild(role);
+		aboutPerson.appendChild(quote);
+
+	let conList = document.createElement("div");
+		conList.id = "aboutCons";
+		let contr = document.createElement('h1');
+			contr.appendChild(document.createTextNode("Contributions:"));
+		let Contributions = document.createElement('ul');
+			Contributions.id = "AboutUsContributions";
+			for(let i = 0; i < aboutUsData[aboutUsIndex]["Contributions"].length; i++){
+				let li = document.createElement('li');
+					li.id = "contributionList";
+					li.appendChild(document.createTextNode(aboutUsData[aboutUsIndex]["Contributions"][i]));
+					Contributions.appendChild(li);
+			}
+		conList.appendChild(contr);
+		conList.appendChild(Contributions);
+	bod.appendChild(aboutPerson);
+	bod.appendChild(conList);
+}
+
 function aboutUs(){
 	deleteAll();
 	let bod = document.getElementById("container");
-	let newDiv = document.createElement('DIV');
-	newDiv.style.alignContent = "center";
-	newDiv.style.backgroundColor = "green";
-	let h1 = document.createElement('h1');
-	h1.style.textAlign = "center";
-	h1.appendChild(document.createTextNode("WE ARE CODING TURTLE ORGANISMS!"));
-	newDiv.appendChild(h1);
-	bod.appendChild(newDiv);
+		let tempContainer = document.createElement('div');
+			tempContainer.id = "fakeGrid";
+		let newDiv = document.createElement('div');
+			newDiv.className = "aboutUsPicOne";
+			newDiv.style.width = "100px"
+			let ericImg1 = document.createElement('img');
+				ericImg1.src = aboutUsData["Eric"]["Pic1"];
+				ericImg1.id = "aboutUsPic1"
+				ericImg1.onclick = function () {
+					aboutUsIndex = "Eric";
+					displayAboutPerson();
+				};
+			let gurdevImg1 = document.createElement('img');
+				gurdevImg1.src = aboutUsData["Gurdev"]["Pic1"];
+				gurdevImg1.id = "aboutUsPic1"
+				gurdevImg1.onclick = function () {
+					aboutUsIndex = "Gurdev";
+					displayAboutPerson();
+				};
+			let joesphImg1 = document.createElement('img');
+				joesphImg1.src = aboutUsData["Joesph"]["Pic1"];
+				joesphImg1.id = "aboutUsPic1"
+				joesphImg1.onclick = function () {
+					aboutUsIndex = "Joesph";
+					displayAboutPerson();
+				};
+			let jonathanImg1 = document.createElement('img');
+				jonathanImg1.src = aboutUsData["Jonathan"]["Pic1"];
+				jonathanImg1.id = "aboutUsPic1"
+				jonathanImg1.onclick = function () {
+					aboutUsIndex = "Jonathan";
+					displayAboutPerson();
+				};
+			let romeoImg1 = document.createElement('img');
+				romeoImg1.src = aboutUsData["Romeo"]["Pic1"];
+				romeoImg1.id = "aboutUsPic1"
+				romeoImg1.onclick = function () {
+					aboutUsIndex = "Romeo";
+					displayAboutPerson();
+				};
+		newDiv.appendChild(ericImg1);
+		newDiv.appendChild(gurdevImg1);
+		newDiv.appendChild(joesphImg1);
+		newDiv.appendChild(jonathanImg1);
+		newDiv.appendChild(romeoImg1);
+		tempContainer.appendChild(newDiv)
+	bod.appendChild(tempContainer);
+	displayAboutPerson();
 }
 
 function departments(){
@@ -256,33 +368,33 @@ function displaySyllabusProf() {
 function displayClassInfoClass(){
 	deleteDisplayCurrentClass();
 	deleteDisplayCurrentProf();
-	let instructorImg = document.createElement("img");
-		instructorImg.id = "instructor";
-		instructorImg.src = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png";
-		instructorImg.style.width = "150px";
-		instructorImg.style.height = "150px";
-
 	let classUnits = document.createElement('p');
 		classUnits.id = "classDescript";
 		classUnits.appendChild(document.createTextNode(getUnits(classIndex)));
 
 	let classOffered = document.createElement('p');
 		classOffered.id = "classDescript";
-		classOffered.appendChild(document.createTextNode(getOfferedIn(classIndex)));
+		if(getOfferedIn(classIndex) == ""){
+			classOffered.appendChild("Only Offered Occasionally ");
+		}
+		else{
+			classOffered.appendChild(document.createTextNode("Typically Offered in: " + getOfferedIn(classIndex)));
+		}
 
 	let classAddInfo = document.createElement('p');
 		classAddInfo.id = "classDescript";
-		classAddInfo.appendChild(document.createTextNode(getAdditionalInfo(classIndex)));
+		classAddInfo.appendChild(document.createTextNode("Additional Information: " + getAdditionalInfo(classIndex)));
 
 	let classDescript = document.createElement('p');
 		classDescript.id = "classDescript";
-		classDescript.appendChild(document.createTextNode(getDescription(classIndex)));
+		classDescript.appendChild(document.createTextNode("Description: " + getDescription(classIndex)));
 
-
-	lowerBodClasses.appendChild(instructorImg);
 	lowerBodClasses.appendChild(classUnits);
 	lowerBodClasses.appendChild(classOffered);
 	lowerBodClasses.appendChild(classAddInfo);
+	if(getAdditionalInfo(classIndex) == ""){
+		classAddInfo.remove();
+	}
 	lowerBodClasses.appendChild(classDescript);
 }
 
@@ -608,7 +720,7 @@ function loadDepartmentAtoZ(){
             newBtn.className = "scrollLinks";
             newBtn.onclick = function(){
                 departMentPageBody.innerHTML = "";
-                    for(let j = 0; j < departmentNames[0][String.fromCharCode(i+65)].length; j++){
+                    for(let j = 0; j < departmentNames[0][String.fromCharCode(i+65)].length-1; j++){
                         let dep = document.createElement('h3');
                         dep.appendChild(document.createTextNode(departmentNames[0][String.fromCharCode(i+65)][j]));
                         departMentPageBody.appendChild(dep);
