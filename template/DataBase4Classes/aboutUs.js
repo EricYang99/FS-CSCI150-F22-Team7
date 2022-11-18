@@ -15,8 +15,8 @@ let aboutUsData = {
     "Gurdev": {
         Role: "Back-end Developer, Server-side Developer, Database Developer",
         Email: "gurdevsingh@mail.fresnostate.edu",
-        Pic1: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
-        Pic2: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+        Pic1: "AboutUsPics/Gurdev.jpg",
+        Pic2: "AboutUsPics/Gurdev2.jpg",
         Quote: "Rice",
         Contributions: [
             "Uploaded the server on AWS",
