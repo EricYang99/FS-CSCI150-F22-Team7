@@ -58,6 +58,7 @@ db.serialize(function(){
     insertData();
     accessData();
     deleteData("James");
+    db.close();
 });
 
 // Anytime a "run" is called for a database for changes, it must be closed right after
