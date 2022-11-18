@@ -27,8 +27,8 @@ let aboutUsData = {
     "Joesph": {
         Role: "Back-end Developer, Database Developer",
         Email: "jackbolt@mail.fresnostate.edu",
-        Pic1: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
-        Pic2: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        Pic1: "AboutUsPics/Joesph.jpg",
+        Pic2: "AboutUsPics/Joesph2.jpg",
         Quote: "Peas",
         Contributions: [
             "Created the entire class list as both a JSON file for first iteration",
@@ -52,8 +52,8 @@ let aboutUsData = {
     "Romeo": {
         Role: "Front-end Developer, UX and UI",
         Email: "rvanegas@mail.fresnostate.edu",
-        Pic1: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
-        Pic2: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+        Pic1: "AboutUsPics/Romeo.jpg",
+        Pic2: "AboutUsPics/Romeo2.jpg",
         Quote: "Grapes",
         Contributions: [
             "Created Class Page",
