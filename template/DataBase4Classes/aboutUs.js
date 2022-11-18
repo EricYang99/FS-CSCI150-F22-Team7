@@ -24,11 +24,11 @@ let aboutUsData = {
             "Updated database code to match the cloud's needs"
         ]
     },
-    "Joesph": {
+    "Joseph": {
         Role: "Back-end Developer, Database Developer",
         Email: "jackbolt@mail.fresnostate.edu",
-        Pic1: "AboutUsPics/Joesph.jpg",
-        Pic2: "AboutUsPics/Joesph2.jpg",
+        Pic1: "AboutUsPics/Joseph.jpg",
+        Pic2: "AboutUsPics/Joseph2.jpg",
         Quote: "Peas",
         Contributions: [
             "Created the entire class list as both a JSON file for first iteration",

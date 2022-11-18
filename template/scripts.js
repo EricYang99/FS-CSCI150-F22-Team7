@@ -206,10 +206,10 @@ function aboutUs(){
 					displayAboutPerson();
 				};
 			let joesphImg1 = document.createElement('img');
-				joesphImg1.src = aboutUsData["Joesph"]["Pic1"];
+				joesphImg1.src = aboutUsData["Joseph"]["Pic1"];
 				joesphImg1.id = "aboutUsPic1"
 				joesphImg1.onclick = function () {
-					aboutUsIndex = "Joesph";
+					aboutUsIndex = "Joseph";
 					displayAboutPerson();
 				};
 			let jonathanImg1 = document.createElement('img');
