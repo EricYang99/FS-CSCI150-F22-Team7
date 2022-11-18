@@ -205,18 +205,18 @@ function aboutUs(){
 					aboutUsIndex = "Gurdev";
 					displayAboutPerson();
 				};
-			let joesphImg1 = document.createElement('img');
-				joesphImg1.src = aboutUsData["Joseph"]["Pic1"];
-				joesphImg1.id = "aboutUsPic1"
-				joesphImg1.onclick = function () {
+			let JosephImg1 = document.createElement('img');
+				JosephImg1.src = aboutUsData["Joseph"]["Pic1"];
+				JosephImg1.id = "aboutUsPic1"
+				JosephImg1.onclick = function () {
 					aboutUsIndex = "Joseph";
 					displayAboutPerson();
 				};
-			let jonathanImg1 = document.createElement('img');
-				jonathanImg1.src = aboutUsData["Jonathan"]["Pic1"];
-				jonathanImg1.id = "aboutUsPic1"
-				jonathanImg1.onclick = function () {
-					aboutUsIndex = "Jonathan";
+			let JohnathanImg1 = document.createElement('img');
+				JohnathanImg1.src = aboutUsData["Johnathan"]["Pic1"];
+				JohnathanImg1.id = "aboutUsPic1"
+				JohnathanImg1.onclick = function () {
+					aboutUsIndex = "Johnathan";
 					displayAboutPerson();
 				};
 			let romeoImg1 = document.createElement('img');
@@ -228,8 +228,8 @@ function aboutUs(){
 				};
 		newDiv.appendChild(ericImg1);
 		newDiv.appendChild(gurdevImg1);
-		newDiv.appendChild(joesphImg1);
-		newDiv.appendChild(jonathanImg1);
+		newDiv.appendChild(JosephImg1);
+		newDiv.appendChild(JohnathanImg1);
 		newDiv.appendChild(romeoImg1);
 		tempContainer.appendChild(newDiv)
 	bod.appendChild(tempContainer);

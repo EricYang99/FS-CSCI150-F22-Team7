@@ -36,11 +36,11 @@ let aboutUsData = {
             "Manually wrote all of the descriptions"
         ]
     },
-    "Jonathan": {
+    "Johnathan": {
         Role: "Front-end Developer, UX and UI",
         Email: "roy147@mail.fresnostate.edu",
-        Pic1: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
-        Pic2: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+        Pic1: "AboutUsPics/Johnathan.jpg",
+        Pic2: "AboutUsPics/Johnathan2.jpg",
         Quote: "Beans",
         Contributions: [
             "Created Professor Page",
