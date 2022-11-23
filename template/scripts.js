@@ -702,10 +702,18 @@ let departMentPageBody = document.createElement('div');
 departMentPageBody.id = "tabDepartmentContent";
 departMentPageBody.className = "tabDepartmentContent";
 
+function deleteScrollLinks(){
+	let bod = document.getElementById("tabDepartmentContent");
+	if(typeof(bod) != 'undefined' && bod != null){
+		bod.innerHTML = '';
+	}
+}
+
 //Function to load in the department Page
 function loadDepartmentAtoZ(){
     deleteDisplayCurrentClass();
     deleteDisplayCurrentProf();
+	deleteScrollLinks();
     deleteAll();
     let bod = document.getElementById("container");
 
@@ -724,10 +732,12 @@ function loadDepartmentAtoZ(){
                         let dep = document.createElement('h3');
                         dep.appendChild(document.createTextNode(departmentNames[0][String.fromCharCode(i+65)][j]));
                         departMentPageBody.appendChild(dep);
-						for(let k = 0; k < data[0]["rows"].length; k++){
-							let p = document.createElement('p');
-							p.appendChild(document.createTextNode(data[0]["rows"][k][0]));
-							departMentPageBody.appendChild(p);
+						if(String.fromCharCode(i+65) == 'C'){
+							for(let k = 0; k < data[0]["rows"].length; k++){
+								let p = document.createElement('p');
+								p.appendChild(document.createTextNode(data[0]["rows"][k][0]));
+								departMentPageBody.appendChild(p);
+							}
 						}
                     }
                 flexContainer.appendChild(departMentPageBody);
