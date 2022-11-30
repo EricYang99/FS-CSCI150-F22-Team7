@@ -376,7 +376,7 @@ function displayClassInfoClass(){
 	let classOffered = document.createElement('p');
 		classOffered.id = "classDescript";
 		if(getOfferedIn(classIndex) == ""){
-			classOffered.appendChild("Only Offered Occasionally ");
+			classOffered.appendChild(document.createTextNode("Only Offered Occasionally"));
 		}
 		else{
 			classOffered.appendChild(document.createTextNode("Typically Offered in: " + getOfferedIn(classIndex)));
