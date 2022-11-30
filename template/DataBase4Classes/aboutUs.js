@@ -3,7 +3,7 @@ let aboutUsData = {
         Role: "Project Manager",
         Email: "ey539629@mail.fresnostate.edu",
         Pic1: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/446.png",
-        Pic2: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+        Pic2: "AboutUsPics/Eric.jpg",
         Quote: "Food Good :D",
         Contributions: [
             "Worked on the home page's dynamic style plus functionalities",
