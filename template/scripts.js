@@ -736,6 +736,16 @@ function loadDepartmentAtoZ(){
 							for(let k = 0; k < data[0]["rows"].length; k++){
 								let p = document.createElement('p');
 								p.appendChild(document.createTextNode(data[0]["rows"][k][0]));
+								p.onclick = function () {
+									for (let j = 0; j < data[0]["rows"].length; j++) {
+										if (p.innerHTML == data[0]["rows"][j][0]) {
+											classIndex = j;
+											displayClassInfoClass();
+											loadClassTemplate();
+											break;
+										}
+									}
+								};
 								departMentPageBody.appendChild(p);
 							}
 						}
