@@ -2,6 +2,6 @@ let departmentNames = [
     {
         'A': [ "Anthro", "Art"], 
         'B': [ "Biology", "Bussiness" ],
-        'C' : ["Computer Science", "Culinary Art"],
+        'C' : ["Computer Science"]
     }
 ] 

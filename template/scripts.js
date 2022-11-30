@@ -10,6 +10,7 @@ for(let i = 0; i < data[0]["rows"].length; i++){
 for(let i = 0; i < nameProfArr.length; i++){
     allCSCINames.push(nameProfArr[i]);
 }
+
 //This is the auto complete search bar functions. It takes an array and will help auto fill the info based on input
 function autocomplete(inp, arr) {
 	/*the autocomplete function takes two arguments,
@@ -728,7 +729,7 @@ function loadDepartmentAtoZ(){
             newBtn.className = "scrollLinks";
             newBtn.onclick = function(){
                 departMentPageBody.innerHTML = "";
-                    for(let j = 0; j < departmentNames[0][String.fromCharCode(i+65)].length-1; j++){
+                    for(let j = 0; j < departmentNames[0][String.fromCharCode(i+65)].length; j++){
                         let dep = document.createElement('h3');
                         dep.appendChild(document.createTextNode(departmentNames[0][String.fromCharCode(i+65)][j]));
                         departMentPageBody.appendChild(dep);
