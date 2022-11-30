@@ -416,9 +416,10 @@ body {font-family: "Lato", sans-serif;} */
   padding: 2px;
   font-size: 20px;
   line-height: 10px;
-  
+}
 
-  
+.flex-containerAtoZ:hover{
+  background-color: #ccc;
 }
 
 .flexTab {
@@ -467,8 +468,18 @@ body {font-family: "Lato", sans-serif;} */
   border-left: none;
   height: 500px;
   overflow-y: scroll;
+}
 
+.tabDepartmentContent p:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
 
+.tabDepartmentContent h3 {
+  text-align: left;
+}
+.tabDepartmentContent p{
+  text-align: left;
 }
 
 /* Home Page CSS*/
