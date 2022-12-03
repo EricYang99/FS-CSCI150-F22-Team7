@@ -184,6 +184,12 @@ function displayAboutPerson(){
 	bod.appendChild(conList);
 }
 
+function deleteAll(){
+	let bod = document.getElementById("container");
+	bod.innerHTML = '';
+}
+
+
 function aboutUs(){
 	deleteAll();
 	let bod = document.getElementById("container");
@@ -235,37 +241,6 @@ function aboutUs(){
 		tempContainer.appendChild(newDiv)
 	bod.appendChild(tempContainer);
 	displayAboutPerson();
-}
-
-function departments(){
-	deleteAll();
-	let bod = document.getElementById("container");
-	let newDiv = document.createElement('DIV');
-	newDiv.style.alignContent = "center";
-	newDiv.style.backgroundColor = "blue";
-	let h1 = document.createElement('h1');
-	h1.style.textAlign = "center";
-	h1.appendChild(document.createTextNode("WE ARE CODING SHEEP ORGANISMS!"));
-	newDiv.appendChild(h1);
-	bod.appendChild(newDiv);
-}
-
-function faculty(){
-	deleteAll();
-	let bod = document.getElementById("container");
-	let newDiv = document.createElement('DIV');
-	newDiv.style.alignContent = "center";
-	newDiv.style.backgroundColor = "red";
-	let h1 = document.createElement('h1');
-	h1.style.textAlign = "center";
-	h1.appendChild(document.createTextNode("WE ARE CODING DOG ORGANISMS!"));
-	newDiv.appendChild(h1);
-	bod.appendChild(newDiv);
-}
-
-function deleteAll(){
-	let bod = document.getElementById("container");
-	bod.innerHTML = '';
 }
 
 function deleteDisplayCurrentClass(){
