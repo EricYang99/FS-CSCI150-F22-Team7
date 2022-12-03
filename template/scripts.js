@@ -259,8 +259,12 @@ function deleteDisplayCurrentProf(){
 
 let lowerBodClasses = document.createElement('div');
 lowerBodClasses.id = "lowerBodyClasses";
+lowerBodClasses.style.minHeight = "50vh";
+lowerBodClasses.style.height = "auto";
 let lowerBodProfs = document.createElement('div');
 lowerBodProfs.id = "lowerBodProfs";
+lowerBodProfs.style.minHeight = "50vh";
+lowerBodProfs.style.height = "auto";
 
 
 function displayProfInfo() {

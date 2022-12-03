@@ -47,7 +47,7 @@
 .bottombar {
   position: fixed;
   background-color: #13284c;
-  height: 90px;
+  height: 6vh;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -157,7 +157,8 @@ form{
   display: flex;
   background-color: #ced1d4;
   width: 900px;
-  height: 1000px;
+  min-height: 80vh;
+  height: auto;
   margin: auto;
   flex-direction: column;
 }
@@ -291,9 +292,12 @@ p {
   position: relative;
 }
 */
-/*
-#professor{}
-*/
+
+#professor p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /*
 #textBox {
   position: absolute;
@@ -354,7 +358,7 @@ p {
   padding: 8px;
 }
 #faculty tr:nth-child(even){background-color: whitesmoke;}
-#faculty tr:hover {background-color: #ddd}
+#faculty tr:hover {background-color: #ddd; cursor: pointer;}
 #faculty th {
 /*  padding-top: 12px;
   padding-bottom: 12px;
@@ -403,7 +407,8 @@ body {font-family: "Lato", sans-serif;} */
   display: flex;
   background-color: #ced1d4;
   width: 900px;
-  height: 1200px;
+  min-height: 80vh;
+  height: auto;
   margin: auto;
   flex-direction: row;
 
@@ -427,7 +432,7 @@ body {font-family: "Lato", sans-serif;} */
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   width: 7%;
-  height: 500px;
+  height: 80vh;
   overflow-y: scroll;
 }
 
@@ -466,7 +471,7 @@ body {font-family: "Lato", sans-serif;} */
   border: 1px solid #ccc;
   width: 100%;
   border-left: none;
-  height: 500px;
+  height: 80vh;
   overflow-y: scroll;
 }
 
@@ -479,6 +484,9 @@ body {font-family: "Lato", sans-serif;} */
   text-align: left;
 }
 .tabDepartmentContent p{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
