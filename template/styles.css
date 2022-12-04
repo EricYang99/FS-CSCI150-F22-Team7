@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+}
+
+
 /*Top of the page CSS/Nav bar*/
 .topbar{
   position: fixed;
@@ -45,6 +50,7 @@
 
 /*Bottom/footer CSS*/
 .bottombar {
+  display: inline-grid;
   background-color: #13284c;
   height: 12vh;
   width: 100%;
@@ -98,10 +104,12 @@ body {
 }
 
 .container{
+  display: inline-grid;
   margin: 0;
   padding: 5px;
   margin-top: 79px;
   width: 100%;
+  min-height: 80vh;
   height: auto;
   align-items: center;
   background-color: white;
@@ -157,7 +165,7 @@ form{
   display: flex;
   background-color: #ced1d4;
   width: 900px;
-  min-height: 80vh;
+  min-height: 100%;
   height: auto;
   margin: auto;
   flex-direction: column;
@@ -384,20 +392,7 @@ p {
 
 
 
-
-
-
-/* html, body {
-  background: linear-gradient(180deg, #75ddff 80%, #f4f7fb 20%);
-  background-blend-mode: multiply;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100% 100%;
-}
-
-
-
-
+/*
 * {box-sizing: border-box}
 body {font-family: "Lato", sans-serif;} */
 
