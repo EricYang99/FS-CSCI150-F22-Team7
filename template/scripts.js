@@ -191,6 +191,8 @@ function deleteAll(){
 
 
 function aboutUs(){
+	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
 	deleteAll();
 	let bod = document.getElementById("container");
 		let tempContainer = document.createElement('div');
@@ -445,6 +447,8 @@ function displayAdditionalLinksProf(){
 
 function loadClassTemplate(){
 	deleteAll();
+	deleteDisplayCurrentClass();
+	deleteDisplayCurrentProf();
 	let bod = document.getElementById("container");
 
 	//Start of flex-container
