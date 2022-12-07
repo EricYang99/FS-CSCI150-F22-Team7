@@ -749,3 +749,22 @@ function loadDepartmentAtoZ(){
         flexContainer.appendChild(departMentPageBody);
     bod.appendChild(flexContainer);
 }
+function loadData(table,info){
+	var temp;
+	var url ="data.php?table="+table+"&serach="+info+"&column=Name";
+	fetch(url)
+	.then(result => result.json())
+	.then((data) => {
+		temp = data;
+		//console.log(temp);	
+		return pushInfo(JSON.parse(temp));
+		})
+	.catch(error => {
+		console.log("DataBase Down");
+		});
+	
+}
+
+function pushInfo(data){
+	return data;
+}
