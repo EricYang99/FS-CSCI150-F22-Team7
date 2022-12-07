@@ -1,4 +1,5 @@
 # Fresno-State-Class-Info
+Fresno State HIPS symposium video submission, Fall 2022: https://youtu.be/pon91bESLsQ
 
 This is a website created by L2G2 for CSCI 150.
 
