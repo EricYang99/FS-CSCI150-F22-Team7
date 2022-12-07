@@ -5,7 +5,7 @@ html, body {
 
 
 /*Top of the page CSS/Nav bar*/
-.topbar{
+/*.topbar{
   position: fixed;
   background: #b1102b;
   height: 80px;
@@ -13,9 +13,9 @@ html, body {
   left: 0;
   list-style-type: none;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: large;
+  font-size: medium;
   top: -1px;
-}
+}*/
 
 #searchbar {
   position: fixed;
@@ -26,12 +26,12 @@ html, body {
   right: 60px;
   top: 25px;
 }
-#topnav {
-  /*padding: 5px;*/
+/*#topnav {
+  padding: 5px;
   padding-left: 4%;
   overflow: hidden;
 }
-
+*/
 #topnav li {
   float: left;
 }
@@ -45,28 +45,29 @@ html, body {
 }
 
 #topnav a:hover:not(.active) {
-  background-color: #13284c;
+  /*background-color: #13284c;*/
+  background-color: #b1102b;
   border-radius: 5px;
 }
 
 /*Bottom/footer CSS*/
 .bottombar {
-  display: inline-grid;
+  /*display: inline-grid;*/
   background-color: #13284c;
-  height: 12vh;
+  height: 15vh;
   width: 100%;
-  bottom: 0;
-  left: 0;
   overflow: hidden;
   padding-left: 12%;
   display: flex;
 }
 
-.bottombar hr {
+/*.bottombar hr {
   position: fixed;
   bottom: 95px;
   overflow: hidden;
-}
+} */
+
+
 #copyright{
   position: fixed;
   bottom: 40px;
@@ -81,15 +82,16 @@ html, body {
     font-family: monospace;
 }
 
-hr.horizontalbar{
+/*hr.horizontalbar{
   border: 3px solid whitesmoke;
   width: 80%;
   bottom: 70px;
 
-}
+}/*
+
 /*CSS that cover the page itself*/
 
-body {
+/*body {
   background-image: url(campus-arial.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -98,14 +100,16 @@ body {
   width: auto;
   height: auto;
   margin: 0;
-}
+}*/
 
 #bottomnav, #copyright, #topnav{
   list-style-type: none;
 }
 
 .container{
-  display: inline-grid;
+  margin-top: 10px;
+  margin-bottom: 80px;
+ /* display: inline-grid;
   margin: 0;
   padding: 5px;
   margin-top: 79px;
@@ -113,9 +117,9 @@ body {
   min-height: 80vh;
   height: auto;
   align-items: center;
-  background-color: white;
-}
+  background-color: white;*/
 
+}
 
 /* Auto complete ////////////////////////////////////////////////////////////////*/
 form{
@@ -486,7 +490,7 @@ body {font-family: "Lato", sans-serif;} */
   text-align: left;
 }
 
-/* Home Page CSS*/
+/* Home Page CSS
 .grid-container {
   display: inline-grid;
   grid-template-columns: 50% auto;
@@ -499,7 +503,7 @@ body {font-family: "Lato", sans-serif;} */
   padding: 0 5px 0 5px;
   font-size: 20px;
   
-}
+}*/
 
 #stockPhoto {
   width: 100%;
@@ -570,9 +574,9 @@ body {font-family: "Lato", sans-serif;} */
 }
 
 #fakeGrid #aboutCons{
-  width: 30%;
+  width: 50%;
 }
 
-#AboutUsContributions li{
-  margin-bottom: 20px;
-}
+/*#AboutUsContributions li{
+  margin-bottom: 5px;
+}*/
