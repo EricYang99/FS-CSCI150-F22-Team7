@@ -36,11 +36,11 @@ let aboutUsData = {
             "Manually wrote all of the descriptions"
         ]
     },
-    "Johnathan": {
+    "Jonathan": {
         Role: "Front-end Developer, UX and UI",
         Email: "roy147@mail.fresnostate.edu",
-        Pic1: "AboutUsPics/Johnathan.jpg",
-        Pic2: "AboutUsPics/Johnathan2.jpg",
+        Pic1: "AboutUsPics/Jonathan.jpg",
+        Pic2: "AboutUsPics/Jonathan2.jpg",
         Quote: "Beans",
         Contributions: [
             "Created Professor Page",

@@ -221,11 +221,11 @@ function aboutUs(){
 					aboutUsIndex = "Joseph";
 					displayAboutPerson();
 				};
-			let JohnathanImg1 = document.createElement('img');
-				JohnathanImg1.src = aboutUsData["Johnathan"]["Pic1"];
-				JohnathanImg1.id = "aboutUsPic1"
-				JohnathanImg1.onclick = function () {
-					aboutUsIndex = "Johnathan";
+			let JonathanImg1 = document.createElement('img');
+				JonathanImg1.src = aboutUsData["Jonathan"]["Pic1"];
+				JonathanImg1.id = "aboutUsPic1"
+				JonathanImg1.onclick = function () {
+					aboutUsIndex = "Jonathan";
 					displayAboutPerson();
 				};
 			let romeoImg1 = document.createElement('img');
@@ -238,7 +238,7 @@ function aboutUs(){
 		newDiv.appendChild(ericImg1);
 		newDiv.appendChild(gurdevImg1);
 		newDiv.appendChild(JosephImg1);
-		newDiv.appendChild(JohnathanImg1);
+		newDiv.appendChild(JonathanImg1);
 		newDiv.appendChild(romeoImg1);
 		tempContainer.appendChild(newDiv)
 	bod.appendChild(tempContainer);
