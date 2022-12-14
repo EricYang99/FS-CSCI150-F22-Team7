@@ -7,9 +7,9 @@ This website will contain Fresno State class and professor information.
 
 This dynamic website only uses a home page to load in all the information based on what the users want to know.
 Currently:
-  The search bar is the best way to navigate through this website.
   There are very few syllabi that are available.
   All Computer Science courses and professors are being used.
+  All code that is runnable is inside of the "template" folder.
 
 Version: Final Prototype
 
