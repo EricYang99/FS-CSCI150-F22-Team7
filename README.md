@@ -10,5 +10,12 @@ Currently:
   The search bar is the best way to navigate through this website.
   There are very few syllabi that are available.
   All Computer Science courses and professors are being used.
-  
-Version: Milestone 1 + syllabus implementation
+
+Version: Final Prototype
+
+
+
+
+
+Fresno State Class Info SRS Documentation:
+
