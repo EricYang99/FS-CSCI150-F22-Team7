@@ -51,10 +51,6 @@ Fresno State Class Info SRS Documentation:
 
 ![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.004.png)
 
-
-![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.005.png)
-**10**
-![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.006.png)
 1. # **Introduction**
 The purpose of this document is to present a detailed description of a website called Fresno State Class Info (FSCI) and explain the benefits that current and future students will gain being able to use it. This document was created for students and instructors to understand the objectives, goals, and the impact this website can make on Fresno State.
 
@@ -78,12 +74,12 @@ The purpose of this document is to present a detailed description of a website c
 
 # **2 Overall Description**
 
-|**2.1 Product Perspective**|<p>This is a self-contained database that will contain:</p><p>- Class Information:</p><p>`	`The information will include a brief description and what each </p><p>`               `student should expect from the class. It will also include the most  </p><p>`               `recent and available syllabus for the class.</p><p>- Professor Information:</p><p>`	`The information will include the professor’s name, email, and </p><p>`               `title. A description of the professor’s teaching methodology with </p><p>`               `with a history/index of past and present courses being taught</p><p>- Helpful Links:</p><p>`	`These helpful links can range anywhere from YouTube    </p><p>`               `videos/channels to web documents that share relevant information </p><p>`               `about each class. These links can also include websites that a </p><p>`               `professor may use often in class.</p><p>![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.007.png)</p><p>This diagram gives the basic overview of how Fresno State Class Info will function. The user essentially queries a professor, or a class and they will get the available information about them.</p>|
+|**2.1 Product Perspective**|<p>This is a self-contained database that will contain:</p><p>- Class Information:</p><p>&emsp;&emsp;- The information will include a brief description and what each </p><p>&emsp;&emsp;- student should expect from the class. It will also include the most  </p><p>&emsp;&emsp;- recent and available syllabus for the class.</p><p>- Professor Information:</p><p>&emsp;&emsp;- The information will include the professor’s name, email, and </p><p>&emsp;&emsp;- title. A description of the professor’s teaching methodology with </p><p>&emsp;&emsp;- with a history/index of past and present courses being taught</p><p>- Helpful Links:</p><p>&emsp;&emsp;- These helpful links can range anywhere from YouTube    </p><p>&emsp;&emsp;- videos/channels to web documents that share relevant information </p><p>&emsp;&emsp;- about each class. These links can also include websites that a </p><p>&emsp;&emsp;- professor may use often in class.</p><p>![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.007.png)</p><p>This diagram gives the basic overview of how Fresno State Class Info will function. The user essentially queries a professor, or a class and they will get the available information about them.</p>|
 | :- | :- |
 ||<p></p><p></p><p></p>|
 |**2.2 Product Functions**|<p>The main purpose of FSCI facilitate researching classes and knowing more about their instructors. This group will currently be working as the administrator to control the database and the information being served to the students. </p><p>![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.008.png)</p><p>This diagram shows the relationship and the flow between the users, the developers (L2G2), and the website.</p><p></p>|
 ||<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>|
-|**2.3 User Classes and Characteristics** |<p>Current Student:</p><p>- Undergraduate or Graduate student</p><p>- Most common user</p><p>- Student wanting to be more informed about class/instructor</p><p>Future Student:</p><p>- Unsure about what to expect</p><p>- Wanting to prepare for counselor - student education plan.</p><p>- Set course trajectory</p><p>Parent, Faculty or any other 3rd parties:</p><p>- Least common user</p><p>- Parent may use FSCI for a qualifying child.</p><p>- Faculty may view how they’re perceived.</p><p>- ` `General information gathering</p><p></p>|
+|**2.3 User Classes and Characteristics** |<p>Current Student:</p><p>- Undergraduate or Graduate student</p><p>- Most common user</p><p>- Student wanting to be more informed about class/instructor</p><p>Future Student:</p><p>- Unsure about what to expect</p><p>- Wanting to prepare for counselor - student education plan.</p><p>- Set course trajectory</p><p>Parent, Faculty or any other 3rd parties:</p><p>- Least common user</p><p>- Parent may use FSCI for a qualifying child.</p><p>- Faculty may view how they’re perceived.</p><p>- General information gathering</p><p></p>|
 |<p></p><p></p><p></p><p></p><p></p>||
 |**2.4 Operating Environment** |<p>Fresno State Class Info will be operational for all Internet browsers, including all features such as search and navigation. A stable internet connection is needed to utilize this product.</p><p>The hardware to use this product:</p><p>- Basic input devices (keyboard/mouse/touch screen)</p><p>- Windows or Mac operating systems supported.</p><p>The software environment:</p><p>- Front-end: HTML / CSS / JavaScript</p><p>- Back-end: JavaScript / MySQL / Python / Ajax / PHP</p><p>- Database: SQL </p><p></p>|
 |<p></p><p></p><p></p><p></p><p></p>||
@@ -118,11 +114,7 @@ The purpose of this document is to present a detailed description of a website c
 
 # **3 External Interface** 
 
-|**3.1 User Interfaces**|<p>- Site will follow W3c HTML5 accessibility standards</p><p>&emsp;- <https://www.w3.org/standards/webdesign/accessibility#wai></p><p>- Screen reader friendly.</p><p>- Search bar:</p><p>![Icon
-
-Description automatically generated](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.009.png)</p><p>- Navigation</p><p>![Text
-
-Description automatically generated](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.010.png)</p><p></p>|
+|**3.1 User Interfaces**|<p>- Site will follow W3c HTML5 accessibility standards</p><p>&emsp;&emsp;- <https://www.w3.org/standards/webdesign/accessibility#wai></p><p>- Screen reader friendly.</p><p>- Search bar:</p><p>![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.009.png)</p><p>- Navigation</p><p>![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.010.png)</p><p></p>|
 | :- | :- |
 ||<p></p><p></p>|
 |**3.2 Product Functions**|<p>FSCI will be hosted by Amazon Web Services.</p><p>- MySQL (the back end that interacts with the front end)</p><p>- Smartphone, Tablet, PC will be the typical users.</p><p></p>|
@@ -177,5 +169,3 @@ Description automatically generated](readMeImages/Aspose.Words.119f0d5e-f2bd-481
 |||
 |**5.4 Software Quality Attributes**|<p>- Accessible: Especially for those with screen readers.</p><p>- Dynamic: Periodically updated for calendar year events</p><p>- Availability: Will be hosted on the cloud to be always available.</p><p>- Correctness: Data will be as accurate as possible.</p><p>- Maintainability: Simplicity leads to an easier dynamic for maintenance. </p><p>- Reliability: The data should not corrupt on the user</p><p>- Reusability: The Data should be accessible to any users at any time</p><p>- Usability: Simple and clear UI/UX design.</p><p></p>|
 
-
-![](readMeImages/Aspose.Words.119f0d5e-f2bd-481e-b946-62b268438400.005.png)
